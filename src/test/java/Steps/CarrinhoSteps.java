@@ -66,13 +66,15 @@ public class CarrinhoSteps {
         cartPage.validatePriceItem();
         cartPage.validatePriceItem(2);
     }
-    @AfterClass
-    public static void afterScenario(Scenario scenario) {
-        ScreenShotUtils.takeScreenshotOnScenario(scenario);
-    }
+
 
     @Entao("^o iconde do carrinho deve ser alterado com a quantidade de itens$")
     public void oIcondeDoCarrinhoDeveSerAlteradoComAQuantidadeDeItens() {
         inventoryPage.validateNumberOfItensInTheCart("2");
+    }
+
+    @AfterClass
+    public static void afterScenario(Scenario scenario) {
+        ScreenShotUtils.takeScreenshotOnScenario(scenario);
     }
 }

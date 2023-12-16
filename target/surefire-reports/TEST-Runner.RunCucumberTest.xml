@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Runner.RunCucumberTest" time="24.772" tests="36" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Runner.RunCucumberTest" time="16.419" tests="27" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\lipel\AppData\Local\Temp\surefire155473257257793073\surefirebooter1938391646122923010.jar C:\Users\lipel\AppData\Local\Temp\surefire155473257257793073 2023-12-16T20-45-42_299-jvmRun1 surefire8453887937356137651tmp surefire_08947089319958708552tmp"/>
+    <property name="sun.java.command" value="C:\Users\lipel\AppData\Local\Temp\surefire3352328077126911289\surefirebooter1242341772873545396.jar C:\Users\lipel\AppData\Local\Temp\surefire3352328077126911289 2023-12-16T20-54-27_087-jvmRun1 surefire3931017423481537385tmp surefire_05090920360007176973tmp"/>
     <property name="test" value="RunCucumberTest"/>
     <property name="surefire.test.class.path" value="C:\Users\lipel\WORKSPACE\NTTDATA-DesafioTecnico\target\test-classes;C:\Users\lipel\WORKSPACE\NTTDATA-DesafioTecnico\target\classes;C:\Users\lipel\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\lipel\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\lipel\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\lipel\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\lipel\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\lipel\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\lipel\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\lipel\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\lipel\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\lipel\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\lipel\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\lipel\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\lipel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\lipel\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\lipel\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\lipel\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\lipel\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\lipel\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\lipel\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\lipel\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\lipel\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\lipel\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\lipel\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\lipel\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\lipel\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\lipel\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\lipel\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\lipel\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\lipel\.m2\repository\org\seleniumhq\selenium\selenium-http-jdk-client\4.8.1\selenium-http-jdk-client-4.8.1.jar;C:\Users\lipel\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\lipel\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\lipel\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\lipel\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\lipel\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\lipel\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\lipel\.m2\repository\com\trivago\rta\cluecumber-report-plugin\2.9.4\cluecumber-report-plugin-2.9.4.jar;C:\Users\lipel\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\lipel\.m2\repository\org\apache\maven\maven-plugin-api\3.8.5\maven-plugin-api-3.8.5.jar;C:\Users\lipel\.m2\repository\org\apache\maven\maven-model\3.8.5\maven-model-3.8.5.jar;C:\Users\lipel\.m2\repository\org\apache\maven\maven-artifact\3.8.5\maven-artifact-3.8.5.jar;C:\Users\lipel\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\lipel\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.5\org.eclipse.sisu.plexus-0.3.5.jar;C:\Users\lipel\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\lipel\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.5\org.eclipse.sisu.inject-0.3.5.jar;C:\Users\lipel\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\lipel\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\lipel\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\lipel\.m2\repository\io\gsonfire\gson-fire\1.9.0-alpha2\gson-fire-1.9.0-alpha2.jar;C:\Users\lipel\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\lipel\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.2\plexus-utils-3.4.2.jar;C:\Users\lipel\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\lipel\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\lipel\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\lipel\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\lipel\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\lipel\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\lipel\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\lipel\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\lipel\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\lipel\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\lipel\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\lipel\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\lipel\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\lipel\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\lipel\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\lipel\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\lipel\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\lipel\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\lipel\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\lipel\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\lipel\AppData\Local\Temp\surefire155473257257793073\surefirebooter1938391646122923010.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\lipel\AppData\Local\Temp\surefire3352328077126911289\surefirebooter1242341772873545396.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,16 +62,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Dado Que eu acessei a aplicacao" classname="| standard_user | secret_sauce | 1 |" time="0.001">
-    <system-err><![CDATA[Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 13246
+  <testcase name="Dado Que eu acessei a aplicacao" classname="| 1 | Felipe | Matos | 54400220 |" time="0.001">
+    <system-err><![CDATA[Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 18926
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-dez 16, 2023 8:45:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+dez 16, 2023 8:54:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMAÇÕES: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Dado Que o usuario efetuou login incluindo &quot;standard_user&quot; e &quot;secret_sauce&quot;" classname="| standard_user | secret_sauce | 1 |" time="0">
+  <testcase name="Dado Que o usuario efetuou login incluindo &quot;standard_user&quot; e &quot;secret_sauce&quot;" classname="| 1 | Felipe | Matos | 54400220 |" time="0">
     <system-out><![CDATA[######################################
 Preencheu o campo By.id: user-name
 ######################################
@@ -83,7 +83,7 @@ Clicou no elemento By.id: login-button
 ######################################
 ]]></system-out>
   </testcase>
-  <testcase name="Quando um item &quot;1&quot;e adicionado ao carrinho" classname="| standard_user | secret_sauce | 1 |" time="0">
+  <testcase name="E selecionou um produto &quot;1&quot;" classname="| 1 | Felipe | Matos | 54400220 |" time="0">
     <system-out><![CDATA[######################################
 Clicou no elemento By.xpath: //div[@class="inventory_item"][1]//button
 ######################################
@@ -92,24 +92,60 @@ Validou a mensagem Remove
 ######################################
 name item 1 = Sauce Labs Backpack
 price item 1 = $29.99
-]]></system-out>
-  </testcase>
-  <testcase name="E o carrinho e acessado" classname="| standard_user | secret_sauce | 1 |" time="0">
-    <system-out><![CDATA[######################################
-Clicou no elemento By.id: shopping_cart_container
 ######################################
-]]></system-out>
-  </testcase>
-  <testcase name="Entao o produto e adicionado ao carrinho" classname="| standard_user | secret_sauce | 1 |" time="0">
-    <system-out><![CDATA[######################################
-Validou a mensagem $29.99
+Clicou no elemento By.id: shopping_cart_container
 ######################################
 ######################################
 Validou a mensagem Sauce Labs Backpack
 ######################################
+######################################
+Validou a mensagem $29.99
+######################################
+######################################
+Clicou no elemento By.id: checkout
+######################################
 ]]></system-out>
   </testcase>
-  <testcase name="E e feito logout" classname="| standard_user | secret_sauce | 1 |" time="0">
+  <testcase name="Quando feito o checkout e preenchido &quot;Felipe&quot; &quot;Matos&quot; &quot;54400220&quot;" classname="| 1 | Felipe | Matos | 54400220 |" time="0">
+    <system-out><![CDATA[######################################
+Preencheu o campo By.id: first-name
+######################################
+######################################
+Preencheu o campo By.id: last-name
+######################################
+######################################
+Preencheu o campo By.id: postal-code
+######################################
+######################################
+Clicou no elemento By.id: continue
+######################################
+]]></system-out>
+  </testcase>
+  <testcase name="E as informacoes de checkou sao exibidas" classname="| 1 | Felipe | Matos | 54400220 |" time="0">
+    <system-out><![CDATA[######################################
+Validou a mensagem Sauce Labs Backpack
+######################################
+]]></system-out>
+  </testcase>
+  <testcase name="E clicado em Finish" classname="| 1 | Felipe | Matos | 54400220 |" time="0">
+    <system-out><![CDATA[######################################
+Clicou no elemento By.id: finish
+######################################
+]]></system-out>
+  </testcase>
+  <testcase name="Entao a compra e efetuada" classname="| 1 | Felipe | Matos | 54400220 |" time="0">
+    <system-out><![CDATA[######################################
+Validou a mensagem Checkout: Complete!
+######################################
+######################################
+Validou a mensagem Thank you for your order!
+######################################
+######################################
+Validou a mensagem Your order has been dispatched, and will arrive just as fast as the pony can get there!
+######################################
+]]></system-out>
+  </testcase>
+  <testcase name="E e feito logout" classname="| 1 | Felipe | Matos | 54400220 |" time="0">
     <system-out><![CDATA[######################################
 Clicou no elemento By.id: react-burger-menu-btn
 ######################################
@@ -118,27 +154,27 @@ Clicou no elemento By.id: logout_sidebar_link
 ######################################
 ]]></system-out>
   </testcase>
-  <testcase name="" classname="| standard_user | secret_sauce | 1 |" time="0.25">
+  <testcase name="" classname="| 1 | Felipe | Matos | 54400220 |" time="0.293">
     <system-out><![CDATA[+++++++++++++
-Teste sendo exectado: Validar nome e valor do item adicionado ao carrinho
+Teste sendo exectado: Efetuar compra e validar valor total
 Status: passed
-Tag: [@Carrinho]
+Tag: [@Compra]
 +++++++++++++
-Teste sendo exectado: Validar nome e valor do item adicionado ao carrinho
+Teste sendo exectado: Efetuar compra e validar valor total
 Status: passed
-Tag: [@Carrinho]
+Tag: [@Compra]
 ]]></system-out>
   </testcase>
-  <testcase name="Dado Que eu acessei a aplicacao" classname="| standard_user | secret_sauce | 2 |" time="0">
-    <system-err><![CDATA[Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 11793
+  <testcase name="Dado Que eu acessei a aplicacao" classname="| 2 | Filomena | Eduarda | 44455221 |" time="0">
+    <system-err><![CDATA[Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 2135
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-dez 16, 2023 8:45:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+dez 16, 2023 8:54:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMAÇÕES: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Dado Que o usuario efetuou login incluindo &quot;standard_user&quot; e &quot;secret_sauce&quot;" classname="| standard_user | secret_sauce | 2 |" time="0">
+  <testcase name="Dado Que o usuario efetuou login incluindo &quot;standard_user&quot; e &quot;secret_sauce&quot;" classname="| 2 | Filomena | Eduarda | 44455221 |" time="0">
     <system-out><![CDATA[######################################
 Preencheu o campo By.id: user-name
 ######################################
@@ -150,7 +186,7 @@ Clicou no elemento By.id: login-button
 ######################################
 ]]></system-out>
   </testcase>
-  <testcase name="Quando um item &quot;2&quot;e adicionado ao carrinho" classname="| standard_user | secret_sauce | 2 |" time="0">
+  <testcase name="E selecionou um produto &quot;2&quot;" classname="| 2 | Filomena | Eduarda | 44455221 |" time="0">
     <system-out><![CDATA[######################################
 Clicou no elemento By.xpath: //div[@class="inventory_item"][2]//button
 ######################################
@@ -159,24 +195,60 @@ Validou a mensagem Remove
 ######################################
 name item 1 = Sauce Labs Bike Light
 price item 1 = $9.99
-]]></system-out>
-  </testcase>
-  <testcase name="E o carrinho e acessado" classname="| standard_user | secret_sauce | 2 |" time="0">
-    <system-out><![CDATA[######################################
-Clicou no elemento By.id: shopping_cart_container
 ######################################
-]]></system-out>
-  </testcase>
-  <testcase name="Entao o produto e adicionado ao carrinho" classname="| standard_user | secret_sauce | 2 |" time="0">
-    <system-out><![CDATA[######################################
-Validou a mensagem $9.99
+Clicou no elemento By.id: shopping_cart_container
 ######################################
 ######################################
 Validou a mensagem Sauce Labs Bike Light
 ######################################
+######################################
+Validou a mensagem $9.99
+######################################
+######################################
+Clicou no elemento By.id: checkout
+######################################
 ]]></system-out>
   </testcase>
-  <testcase name="E e feito logout" classname="| standard_user | secret_sauce | 2 |" time="0">
+  <testcase name="Quando feito o checkout e preenchido &quot;Filomena&quot; &quot;Eduarda&quot; &quot;44455221&quot;" classname="| 2 | Filomena | Eduarda | 44455221 |" time="0">
+    <system-out><![CDATA[######################################
+Preencheu o campo By.id: first-name
+######################################
+######################################
+Preencheu o campo By.id: last-name
+######################################
+######################################
+Preencheu o campo By.id: postal-code
+######################################
+######################################
+Clicou no elemento By.id: continue
+######################################
+]]></system-out>
+  </testcase>
+  <testcase name="E as informacoes de checkou sao exibidas" classname="| 2 | Filomena | Eduarda | 44455221 |" time="0">
+    <system-out><![CDATA[######################################
+Validou a mensagem Sauce Labs Bike Light
+######################################
+]]></system-out>
+  </testcase>
+  <testcase name="E clicado em Finish" classname="| 2 | Filomena | Eduarda | 44455221 |" time="0">
+    <system-out><![CDATA[######################################
+Clicou no elemento By.id: finish
+######################################
+]]></system-out>
+  </testcase>
+  <testcase name="Entao a compra e efetuada" classname="| 2 | Filomena | Eduarda | 44455221 |" time="0">
+    <system-out><![CDATA[######################################
+Validou a mensagem Checkout: Complete!
+######################################
+######################################
+Validou a mensagem Thank you for your order!
+######################################
+######################################
+Validou a mensagem Your order has been dispatched, and will arrive just as fast as the pony can get there!
+######################################
+]]></system-out>
+  </testcase>
+  <testcase name="E e feito logout" classname="| 2 | Filomena | Eduarda | 44455221 |" time="0">
     <system-out><![CDATA[######################################
 Clicou no elemento By.id: react-burger-menu-btn
 ######################################
@@ -185,36 +257,27 @@ Clicou no elemento By.id: logout_sidebar_link
 ######################################
 ]]></system-out>
   </testcase>
-  <testcase name="" classname="| standard_user | secret_sauce | 2 |" time="0.279">
+  <testcase name="" classname="| 2 | Filomena | Eduarda | 44455221 |" time="0.274">
     <system-out><![CDATA[+++++++++++++
-Teste sendo exectado: Validar nome e valor do item adicionado ao carrinho
+Teste sendo exectado: Efetuar compra e validar valor total
 Status: passed
-Tag: [@Carrinho]
+Tag: [@Compra]
 +++++++++++++
-Teste sendo exectado: Validar nome e valor do item adicionado ao carrinho
+Teste sendo exectado: Efetuar compra e validar valor total
 Status: passed
-Tag: [@Carrinho]
+Tag: [@Compra]
 ]]></system-out>
   </testcase>
-  <testcase name="Dado Que eu acessei a aplicacao" classname="| standard_user | secret_sauce | 1 | 2 |" time="0">
-    <system-err><![CDATA[Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 34306
+  <testcase name="Dado Que eu acessei a aplicacao" classname="| 3 | Filomena | Juquinha | 44455222 |" time="0">
+    <system-err><![CDATA[Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 44426
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-dez 16, 2023 8:45:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+dez 16, 2023 8:54:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMAÇÕES: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Dado Que eu acessei a aplicacao" classname="| standard_user | secret_sauce | 1 | 2 |" time="0">
-    <system-err><![CDATA[Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 40223
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-dez 16, 2023 8:46:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFORMAÇÕES: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Dado Que o usuario efetuou login incluindo &quot;standard_user&quot; e &quot;secret_sauce&quot;" classname="| standard_user | secret_sauce | 1 | 2 |" time="0">
+  <testcase name="Dado Que o usuario efetuou login incluindo &quot;standard_user&quot; e &quot;secret_sauce&quot;" classname="| 3 | Filomena | Juquinha | 44455222 |" time="0">
     <system-out><![CDATA[######################################
 Preencheu o campo By.id: user-name
 ######################################
@@ -226,121 +289,7 @@ Clicou no elemento By.id: login-button
 ######################################
 ]]></system-out>
   </testcase>
-  <testcase name="Dado Que o usuario efetuou login incluindo &quot;standard_user&quot; e &quot;secret_sauce&quot;" classname="| standard_user | secret_sauce | 1 | 2 |" time="0">
-    <system-out><![CDATA[######################################
-Preencheu o campo By.id: user-name
-######################################
-######################################
-Preencheu o campo By.id: password
-######################################
-######################################
-Clicou no elemento By.id: login-button
-######################################
-]]></system-out>
-  </testcase>
-  <testcase name="Quando multiplos itens&quot;1&quot; &quot;2&quot; sao adicionados ao carrinho" classname="| standard_user | secret_sauce | 1 | 2 |" time="0">
-    <system-out><![CDATA[######################################
-Clicou no elemento By.xpath: //div[@class="inventory_item"][1]//button
-######################################
-######################################
-Validou a mensagem Remove
-######################################
-name item 1 = Sauce Labs Backpack
-price item 1 = $29.99
-######################################
-Clicou no elemento By.xpath: //div[@class="inventory_item"][2]//button
-######################################
-######################################
-Validou a mensagem Remove
-######################################
-name item 2 = Sauce Labs Bike Light
-price item 2 = $9.99
-]]></system-out>
-  </testcase>
-  <testcase name="Quando multiplos itens&quot;1&quot; &quot;2&quot; sao adicionados ao carrinho" classname="| standard_user | secret_sauce | 1 | 2 |" time="0">
-    <system-out><![CDATA[######################################
-Clicou no elemento By.xpath: //div[@class="inventory_item"][1]//button
-######################################
-######################################
-Validou a mensagem Remove
-######################################
-name item 1 = Sauce Labs Backpack
-price item 1 = $29.99
-######################################
-Clicou no elemento By.xpath: //div[@class="inventory_item"][2]//button
-######################################
-######################################
-Validou a mensagem Remove
-######################################
-name item 2 = Sauce Labs Bike Light
-price item 2 = $9.99
-]]></system-out>
-  </testcase>
-  <testcase name="E o carrinho e acessado" classname="| standard_user | secret_sauce | 1 | 2 |" time="0">
-    <system-out><![CDATA[######################################
-Clicou no elemento By.id: shopping_cart_container
-######################################
-]]></system-out>
-  </testcase>
-  <testcase name="Entao os produtos sao adicionados ao carrinho" classname="| standard_user | secret_sauce | 1 | 2 |" time="0">
-    <system-out><![CDATA[######################################
-Validou a mensagem $29.99
-######################################
-######################################
-Validou a mensagem $9.99
-######################################
-]]></system-out>
-  </testcase>
-  <testcase name="" classname="| standard_user | secret_sauce | 1 | 2 |" time="0.259">
-    <system-out><![CDATA[+++++++++++++
-Teste sendo exectadoValidar valores de multiplos itens no carrinho
-Status: passed
-Tag: [@Carrinho]
-+++++++++++++
-Teste sendo exectadoValidar valores de multiplos itens no carrinho
-Status: passed
-Tag: [@Carrinho]
-]]></system-out>
-  </testcase>
-  <testcase name="" classname="| standard_user | secret_sauce | 1 | 2 |" time="0.332">
-    <system-out><![CDATA[+++++++++++++
-Teste sendo exectadoValidar contagem de itens no carrinho pelo icone
-Status: passed
-Tag: [@Carrinho]
-+++++++++++++
-Teste sendo exectadoValidar contagem de itens no carrinho pelo icone
-Status: passed
-Tag: [@Carrinho]
-]]></system-out>
-  </testcase>
-  <testcase name="Entao o iconde do carrinho deve ser alterado com a quantidade de itens" classname="| standard_user | secret_sauce | 1 | 2 |" time="0">
-    <system-out><![CDATA[######################################
-Validou a mensagem 2
-######################################
-]]></system-out>
-  </testcase>
-  <testcase name="Dado Que eu acessei a aplicacao" classname="| standard_user | secret_sauce | 3 | 4 |" time="0">
-    <system-err><![CDATA[Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 45639
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-dez 16, 2023 8:45:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFORMAÇÕES: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Dado Que o usuario efetuou login incluindo &quot;standard_user&quot; e &quot;secret_sauce&quot;" classname="| standard_user | secret_sauce | 3 | 4 |" time="0">
-    <system-out><![CDATA[######################################
-Preencheu o campo By.id: user-name
-######################################
-######################################
-Preencheu o campo By.id: password
-######################################
-######################################
-Clicou no elemento By.id: login-button
-######################################
-]]></system-out>
-  </testcase>
-  <testcase name="Quando multiplos itens&quot;3&quot; &quot;4&quot; sao adicionados ao carrinho" classname="| standard_user | secret_sauce | 3 | 4 |" time="0">
+  <testcase name="E selecionou um produto &quot;3&quot;" classname="| 3 | Filomena | Juquinha | 44455222 |" time="0">
     <system-out><![CDATA[######################################
 Clicou no elemento By.xpath: //div[@class="inventory_item"][3]//button
 ######################################
@@ -350,96 +299,76 @@ Validou a mensagem Remove
 name item 1 = Sauce Labs Bolt T-Shirt
 price item 1 = $15.99
 ######################################
-Clicou no elemento By.xpath: //div[@class="inventory_item"][4]//button
-######################################
-######################################
-Validou a mensagem Remove
-######################################
-name item 2 = Sauce Labs Fleece Jacket
-price item 2 = $49.99
-]]></system-out>
-  </testcase>
-  <testcase name="E o carrinho e acessado" classname="| standard_user | secret_sauce | 3 | 4 |" time="0">
-    <system-out><![CDATA[######################################
 Clicou no elemento By.id: shopping_cart_container
 ######################################
-]]></system-out>
-  </testcase>
-  <testcase name="Entao os produtos sao adicionados ao carrinho" classname="| standard_user | secret_sauce | 3 | 4 |" time="0">
-    <system-out><![CDATA[######################################
+######################################
+Validou a mensagem Sauce Labs Bolt T-Shirt
+######################################
+######################################
 Validou a mensagem $15.99
 ######################################
 ######################################
-Validou a mensagem $49.99
+Clicou no elemento By.id: checkout
 ######################################
 ]]></system-out>
   </testcase>
-  <testcase name="" classname="| standard_user | secret_sauce | 3 | 4 |" time="0.273">
+  <testcase name="Quando feito o checkout e preenchido &quot;Filomena&quot; &quot;Juquinha&quot; &quot;44455222&quot;" classname="| 3 | Filomena | Juquinha | 44455222 |" time="0">
+    <system-out><![CDATA[######################################
+Preencheu o campo By.id: first-name
+######################################
+######################################
+Preencheu o campo By.id: last-name
+######################################
+######################################
+Preencheu o campo By.id: postal-code
+######################################
+######################################
+Clicou no elemento By.id: continue
+######################################
+]]></system-out>
+  </testcase>
+  <testcase name="E as informacoes de checkou sao exibidas" classname="| 3 | Filomena | Juquinha | 44455222 |" time="0">
+    <system-out><![CDATA[######################################
+Validou a mensagem Sauce Labs Bolt T-Shirt
+######################################
+]]></system-out>
+  </testcase>
+  <testcase name="E clicado em Finish" classname="| 3 | Filomena | Juquinha | 44455222 |" time="0">
+    <system-out><![CDATA[######################################
+Clicou no elemento By.id: finish
+######################################
+]]></system-out>
+  </testcase>
+  <testcase name="Entao a compra e efetuada" classname="| 3 | Filomena | Juquinha | 44455222 |" time="0">
+    <system-out><![CDATA[######################################
+Validou a mensagem Checkout: Complete!
+######################################
+######################################
+Validou a mensagem Thank you for your order!
+######################################
+######################################
+Validou a mensagem Your order has been dispatched, and will arrive just as fast as the pony can get there!
+######################################
+]]></system-out>
+  </testcase>
+  <testcase name="E e feito logout" classname="| 3 | Filomena | Juquinha | 44455222 |" time="0">
+    <system-out><![CDATA[######################################
+Clicou no elemento By.id: react-burger-menu-btn
+######################################
+######################################
+Clicou no elemento By.id: logout_sidebar_link
+######################################
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="| 3 | Filomena | Juquinha | 44455222 |" time="0.268">
     <system-out><![CDATA[+++++++++++++
-Teste sendo exectadoValidar valores de multiplos itens no carrinho
+Teste sendo exectado: Efetuar compra e validar valor total
 Status: passed
-Tag: [@Carrinho]
+Tag: [@Compra]
 +++++++++++++
-Teste sendo exectadoValidar valores de multiplos itens no carrinho
+Teste sendo exectado: Efetuar compra e validar valor total
 Status: passed
-Tag: [@Carrinho]
-]]></system-out>
-  </testcase>
-  <testcase name="Dado Que eu acessei a aplicacao" classname="| standard_user | secret_sauce | 2 | 3 |" time="0">
-    <system-err><![CDATA[Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 25993
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-dez 16, 2023 8:46:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFORMAÇÕES: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Dado Que o usuario efetuou login incluindo &quot;standard_user&quot; e &quot;secret_sauce&quot;" classname="| standard_user | secret_sauce | 2 | 3 |" time="0">
-    <system-out><![CDATA[######################################
-Preencheu o campo By.id: user-name
-######################################
-######################################
-Preencheu o campo By.id: password
-######################################
-######################################
-Clicou no elemento By.id: login-button
-######################################
-]]></system-out>
-  </testcase>
-  <testcase name="Quando multiplos itens&quot;2&quot; &quot;3&quot; sao adicionados ao carrinho" classname="| standard_user | secret_sauce | 2 | 3 |" time="0">
-    <system-out><![CDATA[######################################
-Clicou no elemento By.xpath: //div[@class="inventory_item"][2]//button
-######################################
-######################################
-Validou a mensagem Remove
-######################################
-name item 1 = Sauce Labs Bike Light
-price item 1 = $9.99
-######################################
-Clicou no elemento By.xpath: //div[@class="inventory_item"][3]//button
-######################################
-######################################
-Validou a mensagem Remove
-######################################
-name item 2 = Sauce Labs Bolt T-Shirt
-price item 2 = $15.99
-]]></system-out>
-  </testcase>
-  <testcase name="Entao o iconde do carrinho deve ser alterado com a quantidade de itens" classname="| standard_user | secret_sauce | 2 | 3 |" time="0">
-    <system-out><![CDATA[######################################
-Validou a mensagem 2
-######################################
-]]></system-out>
-  </testcase>
-  <testcase name="" classname="| standard_user | secret_sauce | 2 | 3 |" time="0.314">
-    <system-out><![CDATA[+++++++++++++
-Teste sendo exectadoValidar contagem de itens no carrinho pelo icone
-Status: passed
-Tag: [@Carrinho]
-+++++++++++++
-Teste sendo exectadoValidar contagem de itens no carrinho pelo icone
-Status: passed
-Tag: [@Carrinho]
+Tag: [@Compra]
 ]]></system-out>
   </testcase>
 </testsuite>
