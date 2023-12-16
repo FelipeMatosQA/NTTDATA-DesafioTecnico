@@ -1,6 +1,7 @@
 package Pages;
 
 import Runner.RunCucumberTest;
+import Suport.Utils;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 
@@ -26,11 +27,11 @@ public class CheckoutTwoPage extends RunCucumberTest {
     }
 
     public void validateTotalPrice(){
-       float itemValue = convertStringToFloat(totalPrice);
-       float taxValue =  convertStringToFloat(taxPrice);
+       float itemValue = Utils.convertStringToFloat(totalPrice);
+       float taxValue = Utils.convertStringToFloat(taxPrice);
        float totalSum = itemValue + taxValue;
 
-       float totalValue = convertStringToFloat(totalPriceSumTax);
+       float totalValue = Utils.convertStringToFloat(totalPriceSumTax);
        floatAssert(totalSum,totalValue);
     }
 

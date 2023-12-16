@@ -45,10 +45,4 @@ public class Comands extends RunCucumberTest {
         return getDriver().findElement(element).getText();
     }
 
-    public static Float convertStringToFloat(By element){
-        String stringValue = getTextElement(element);
-        String numericValue = stringValue.replaceAll("[^0-9.]", "");
-        float number = Float.parseFloat(numericValue);
-        return number;
-    }
 }

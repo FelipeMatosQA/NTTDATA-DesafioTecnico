@@ -79,8 +79,9 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <customParametersDisplayMode>ALL_PAGES</customParametersDisplayMode>
                     <sourceJsonReportDirectory>${project.build.directory}/reports</sourceJsonReportDirectory>
-                    <generatedHtmlReportDirectory>${project.build.directory}/formatedreport</generatedHtmlReportDirectory>
+                    <generatedHtmlReportDirectory>${project.build.directory}/HTMLReport</generatedHtmlReportDirectory>
                 </configuration>
             </plugin>
 

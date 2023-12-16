@@ -31,6 +31,8 @@ public class InventoryPage extends RunCucumberTest {
 
     private By navBarLogOut = By.id("logout_sidebar_link");
 
+    private By cartIcon = By.cssSelector(".shopping_cart_badge");
+
     public String getNameItemByIndex(String index){
         String xpath = String.format(genericItemName,index);
         return getTextElement(By.xpath(xpath));
@@ -92,6 +94,10 @@ public class InventoryPage extends RunCucumberTest {
         clickElement(navBar);
         clickElement(navBarLogOut);
         validateCurrentUrl("https://www.saucedemo.com/");
+    }
+
+    public void validateNumberOfItensInTheCart(String itens){
+        checkText(cartIcon, itens);
     }
 
 

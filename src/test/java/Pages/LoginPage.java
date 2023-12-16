@@ -18,10 +18,12 @@ public class LoginPage extends RunCucumberTest {
     private By errorMsg =  By.cssSelector("h3[data-test =\"error\"]");
 
 
-    public void accessApp(){
+    public void accessApp() {
         getDriver(System.getProperty("browser"));
         getDriver().get("https://www.saucedemo.com/");
     }
+
+
 
     public void fillUsername(String username){
         fillField(userNameField,username);

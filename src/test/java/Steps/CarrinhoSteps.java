@@ -6,11 +6,14 @@ import Pages.LoginPage;
 import Suport.ScreenShotUtils;
 import cucumber.api.PendingException;
 import cucumber.api.Scenario;
-import cucumber.api.java.After;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.E;
 import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;
+import org.junit.After;
+import org.junit.AfterClass;
+
+import java.io.IOException;
 
 public class CarrinhoSteps {
 
@@ -19,7 +22,7 @@ public class CarrinhoSteps {
     CartPage cartPage = new CartPage();
 
     @Dado("^Que eu acessei a aplicacao$")
-    public void que_eu_acessei_a_aplicacao() {
+    public void que_eu_acessei_a_aplicacao(){
         loginPage.accessApp();
     }
 
@@ -63,9 +66,13 @@ public class CarrinhoSteps {
         cartPage.validatePriceItem();
         cartPage.validatePriceItem(2);
     }
-    @After
+    @AfterClass
     public static void afterScenario(Scenario scenario) {
-            ScreenShotUtils.takeScreenshotOnScenario(scenario);
+        ScreenShotUtils.takeScreenshotOnScenario(scenario);
     }
 
+    @Entao("^o iconde do carrinho deve ser alterado com a quantidade de itens$")
+    public void oIcondeDoCarrinhoDeveSerAlteradoComAQuantidadeDeItens() {
+        inventoryPage.validateNumberOfItensInTheCart("2");
+    }
 }

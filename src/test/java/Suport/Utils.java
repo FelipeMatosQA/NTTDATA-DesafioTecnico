@@ -5,7 +5,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.Random;
+
+
+import static Suport.Comands.getTextElement;
 
 public class Utils extends RunCucumberTest {
 
@@ -23,17 +25,10 @@ public class Utils extends RunCucumberTest {
 
     }
 
-    public static String gerarEmailAleatorio(){
-
-        String email_init = "seleniumEmail";
-        String email_final = "@yopmail.com";
-
-        Random random = new Random();
-
-        int minimo = 1;
-        int maximo = 999999;
-        int resultado = random.nextInt(maximo-minimo) + minimo;
-
-        return email_init + resultado + email_final;
+    public static Float convertStringToFloat(By element){
+        String stringValue = getTextElement(element);
+        String numericValue = stringValue.replaceAll("[^0-9.]", "");
+        float number = Float.parseFloat(numericValue);
+        return number;
     }
 }
