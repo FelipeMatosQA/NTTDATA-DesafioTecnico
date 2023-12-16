@@ -103,7 +103,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2890066400,
+  "duration": 2791608700,
   "status": "passed"
 });
 formatter.scenario({
@@ -166,7 +166,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 381587200,
+  "duration": 373872600,
   "status": "passed"
 });
 formatter.match({
@@ -179,43 +179,43 @@ formatter.match({
   "location": "CarrinhoSteps.umItemEAdicionadoAoCarrinho(String)"
 });
 formatter.result({
-  "duration": 195923500,
+  "duration": 194847800,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.o_carrinho_e_acessado()"
 });
 formatter.result({
-  "duration": 102144200,
+  "duration": 118945500,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.o_produto_e_adicionado_ao_carrinho()"
 });
 formatter.result({
-  "duration": 115973600,
+  "duration": 112390100,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.eFeitoLogout()"
 });
 formatter.result({
-  "duration": 698980100,
+  "duration": 712864400,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 175202900,
+  "duration": 134432400,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded1.png");
 formatter.after({
-  "duration": 118370700,
+  "duration": 117728200,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded2.png");
 formatter.after({
-  "duration": 114179700,
+  "duration": 124974900,
   "status": "passed"
 });
 formatter.background({
@@ -234,7 +234,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2694244700,
+  "duration": 2656473500,
   "status": "passed"
 });
 formatter.scenario({
@@ -297,7 +297,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 376087800,
+  "duration": 350165700,
   "status": "passed"
 });
 formatter.match({
@@ -310,43 +310,43 @@ formatter.match({
   "location": "CarrinhoSteps.umItemEAdicionadoAoCarrinho(String)"
 });
 formatter.result({
-  "duration": 191155800,
+  "duration": 165852900,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.o_carrinho_e_acessado()"
 });
 formatter.result({
-  "duration": 103954300,
+  "duration": 105525700,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.o_produto_e_adicionado_ao_carrinho()"
 });
 formatter.result({
-  "duration": 95241500,
+  "duration": 94920600,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.eFeitoLogout()"
 });
 formatter.result({
-  "duration": 708558400,
+  "duration": 698732700,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded3.png");
 formatter.after({
-  "duration": 123730000,
+  "duration": 151849800,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded4.png");
 formatter.after({
-  "duration": 124302400,
+  "duration": 152147500,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded5.png");
 formatter.after({
-  "duration": 124349600,
+  "duration": 135395200,
   "status": "passed"
 });
 formatter.uri("Compra.feature");
@@ -485,7 +485,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2569028200,
+  "duration": 2629408100,
   "status": "passed"
 });
 formatter.scenario({
@@ -563,7 +563,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 359609100,
+  "duration": 388779800,
   "status": "passed"
 });
 formatter.match({
@@ -576,7 +576,7 @@ formatter.match({
   "location": "CompraSteps.selecionouUmProduto(String)"
 });
 formatter.result({
-  "duration": 465252400,
+  "duration": 446824800,
   "status": "passed"
 });
 formatter.match({
@@ -597,50 +597,50 @@ formatter.match({
   "location": "CompraSteps.feito_o_checkout_e_preenchido(String,String,String)"
 });
 formatter.result({
-  "duration": 362852700,
+  "duration": 380252900,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.as_informacoes_de_checkou_sao_exibidas()"
 });
 formatter.result({
-  "duration": 103430700,
+  "duration": 89542400,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.clicado_em_Finish()"
 });
 formatter.result({
-  "duration": 76515600,
+  "duration": 73344900,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.a_compra_e_efetuada()"
 });
 formatter.result({
-  "duration": 154801600,
+  "duration": 172497400,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.eFeitoLogout()"
 });
 formatter.result({
-  "duration": 699305000,
+  "duration": 700793600,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded6.png");
 formatter.after({
-  "duration": 144317700,
+  "duration": 129850800,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded7.png");
 formatter.after({
-  "duration": 108808800,
+  "duration": 136678900,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded8.png");
 formatter.after({
-  "duration": 115433600,
+  "duration": 122782200,
   "status": "passed"
 });
 formatter.background({
@@ -659,7 +659,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2741862900,
+  "duration": 2738916400,
   "status": "passed"
 });
 formatter.scenario({
@@ -737,7 +737,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 353722400,
+  "duration": 371829700,
   "status": "passed"
 });
 formatter.match({
@@ -750,7 +750,7 @@ formatter.match({
   "location": "CompraSteps.selecionouUmProduto(String)"
 });
 formatter.result({
-  "duration": 453150400,
+  "duration": 475634400,
   "status": "passed"
 });
 formatter.match({
@@ -771,50 +771,50 @@ formatter.match({
   "location": "CompraSteps.feito_o_checkout_e_preenchido(String,String,String)"
 });
 formatter.result({
-  "duration": 364188500,
+  "duration": 360830300,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.as_informacoes_de_checkou_sao_exibidas()"
 });
 formatter.result({
-  "duration": 104421200,
+  "duration": 121579100,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.clicado_em_Finish()"
 });
 formatter.result({
-  "duration": 75980300,
+  "duration": 72293800,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.a_compra_e_efetuada()"
 });
 formatter.result({
-  "duration": 156990000,
+  "duration": 157125200,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.eFeitoLogout()"
 });
 formatter.result({
-  "duration": 701728500,
+  "duration": 700207400,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded9.png");
 formatter.after({
-  "duration": 160082900,
+  "duration": 137834500,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded10.png");
 formatter.after({
-  "duration": 117145300,
+  "duration": 117418100,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded11.png");
 formatter.after({
-  "duration": 109050700,
+  "duration": 159144100,
   "status": "passed"
 });
 formatter.background({
@@ -833,7 +833,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2684448500,
+  "duration": 2821722800,
   "status": "passed"
 });
 formatter.scenario({
@@ -911,7 +911,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 353707400,
+  "duration": 345666200,
   "status": "passed"
 });
 formatter.match({
@@ -924,7 +924,7 @@ formatter.match({
   "location": "CompraSteps.selecionouUmProduto(String)"
 });
 formatter.result({
-  "duration": 458635600,
+  "duration": 466404700,
   "status": "passed"
 });
 formatter.match({
@@ -945,50 +945,50 @@ formatter.match({
   "location": "CompraSteps.feito_o_checkout_e_preenchido(String,String,String)"
 });
 formatter.result({
-  "duration": 383957700,
+  "duration": 356990900,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.as_informacoes_de_checkou_sao_exibidas()"
 });
 formatter.result({
-  "duration": 101819800,
+  "duration": 89063700,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.clicado_em_Finish()"
 });
 formatter.result({
-  "duration": 71885500,
+  "duration": 73779100,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.a_compra_e_efetuada()"
 });
 formatter.result({
-  "duration": 143673400,
+  "duration": 144649000,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.eFeitoLogout()"
 });
 formatter.result({
-  "duration": 704580300,
+  "duration": 697557900,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded12.png");
 formatter.after({
-  "duration": 144203900,
+  "duration": 166761300,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded13.png");
 formatter.after({
-  "duration": 107722000,
+  "duration": 113347500,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded14.png");
 formatter.after({
-  "duration": 128712400,
+  "duration": 111271000,
   "status": "passed"
 });
 formatter.uri("MultiplosUsuarios.feature");
@@ -1163,7 +1163,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2648637200,
+  "duration": 2739855200,
   "status": "passed"
 });
 formatter.scenario({
@@ -1241,7 +1241,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 340626400,
+  "duration": 351388400,
   "status": "passed"
 });
 formatter.match({
@@ -1254,7 +1254,7 @@ formatter.match({
   "location": "CompraSteps.selecionouUmProduto(String)"
 });
 formatter.result({
-  "duration": 440133500,
+  "duration": 446404700,
   "status": "passed"
 });
 formatter.match({
@@ -1275,50 +1275,50 @@ formatter.match({
   "location": "CompraSteps.feito_o_checkout_e_preenchido(String,String,String)"
 });
 formatter.result({
-  "duration": 368250000,
+  "duration": 363055400,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.as_informacoes_de_checkou_sao_exibidas()"
 });
 formatter.result({
-  "duration": 102337900,
+  "duration": 90028300,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.clicado_em_Finish()"
 });
 formatter.result({
-  "duration": 78399400,
+  "duration": 74082900,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.a_compra_e_efetuada()"
 });
 formatter.result({
-  "duration": 154070600,
+  "duration": 140422500,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.eFeitoLogout()"
 });
 formatter.result({
-  "duration": 695002200,
+  "duration": 702403400,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded15.png");
 formatter.after({
-  "duration": 146209400,
+  "duration": 147771700,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded16.png");
 formatter.after({
-  "duration": 125367000,
+  "duration": 140401200,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded17.png");
 formatter.after({
-  "duration": 129141400,
+  "duration": 142200300,
   "status": "passed"
 });
 formatter.background({
@@ -1337,7 +1337,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2586887000,
+  "duration": 2674417600,
   "status": "passed"
 });
 formatter.scenario({
@@ -1415,7 +1415,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 354463800,
+  "duration": 349826600,
   "status": "passed"
 });
 formatter.match({
@@ -1428,7 +1428,7 @@ formatter.match({
   "location": "CompraSteps.selecionouUmProduto(String)"
 });
 formatter.result({
-  "duration": 444978700,
+  "duration": 443186800,
   "status": "passed"
 });
 formatter.match({
@@ -1449,50 +1449,50 @@ formatter.match({
   "location": "CompraSteps.feito_o_checkout_e_preenchido(String,String,String)"
 });
 formatter.result({
-  "duration": 364297700,
+  "duration": 365431700,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.as_informacoes_de_checkou_sao_exibidas()"
 });
 formatter.result({
-  "duration": 102490300,
+  "duration": 105150300,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.clicado_em_Finish()"
 });
 formatter.result({
-  "duration": 74033900,
+  "duration": 73257600,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.a_compra_e_efetuada()"
 });
 formatter.result({
-  "duration": 140433200,
+  "duration": 140794800,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.eFeitoLogout()"
 });
 formatter.result({
-  "duration": 700088600,
+  "duration": 707223700,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded18.png");
 formatter.after({
-  "duration": 134003600,
+  "duration": 139994200,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded19.png");
 formatter.after({
-  "duration": 112498900,
+  "duration": 110947900,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded20.png");
 formatter.after({
-  "duration": 109577300,
+  "duration": 110884800,
   "status": "passed"
 });
 formatter.background({
@@ -1511,7 +1511,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2713277500,
+  "duration": 2890154000,
   "status": "passed"
 });
 formatter.scenario({
@@ -1589,7 +1589,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 5346204100,
+  "duration": 5363632700,
   "status": "passed"
 });
 formatter.match({
@@ -1602,7 +1602,7 @@ formatter.match({
   "location": "CompraSteps.selecionouUmProduto(String)"
 });
 formatter.result({
-  "duration": 451237100,
+  "duration": 447435700,
   "status": "passed"
 });
 formatter.match({
@@ -1623,50 +1623,50 @@ formatter.match({
   "location": "CompraSteps.feito_o_checkout_e_preenchido(String,String,String)"
 });
 formatter.result({
-  "duration": 365894600,
+  "duration": 362914700,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.as_informacoes_de_checkou_sao_exibidas()"
 });
 formatter.result({
-  "duration": 103850800,
+  "duration": 102191400,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.clicado_em_Finish()"
 });
 formatter.result({
-  "duration": 74025900,
+  "duration": 75831300,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.a_compra_e_efetuada()"
 });
 formatter.result({
-  "duration": 141953600,
+  "duration": 139819300,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.eFeitoLogout()"
 });
 formatter.result({
-  "duration": 701330800,
+  "duration": 705374100,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded21.png");
 formatter.after({
-  "duration": 155427800,
+  "duration": 149852000,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded22.png");
 formatter.after({
-  "duration": 109864900,
+  "duration": 115568600,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded23.png");
 formatter.after({
-  "duration": 114020600,
+  "duration": 108234500,
   "status": "passed"
 });
 formatter.background({
@@ -1685,7 +1685,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2577668100,
+  "duration": 2757002400,
   "status": "passed"
 });
 formatter.scenario({
@@ -1763,7 +1763,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 5353552500,
+  "duration": 5373330300,
   "status": "passed"
 });
 formatter.match({
@@ -1776,7 +1776,7 @@ formatter.match({
   "location": "CompraSteps.selecionouUmProduto(String)"
 });
 formatter.result({
-  "duration": 440396700,
+  "duration": 434607800,
   "status": "passed"
 });
 formatter.match({
@@ -1797,50 +1797,50 @@ formatter.match({
   "location": "CompraSteps.feito_o_checkout_e_preenchido(String,String,String)"
 });
 formatter.result({
-  "duration": 356209200,
+  "duration": 368389800,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.as_informacoes_de_checkou_sao_exibidas()"
 });
 formatter.result({
-  "duration": 91225600,
+  "duration": 103057700,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.clicado_em_Finish()"
 });
 formatter.result({
-  "duration": 75934100,
+  "duration": 78539800,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.a_compra_e_efetuada()"
 });
 formatter.result({
-  "duration": 139886500,
+  "duration": 172437000,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.eFeitoLogout()"
 });
 formatter.result({
-  "duration": 700080800,
+  "duration": 698686900,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded24.png");
 formatter.after({
-  "duration": 168590900,
+  "duration": 162798700,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded25.png");
 formatter.after({
-  "duration": 132585400,
+  "duration": 120304300,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded26.png");
 formatter.after({
-  "duration": 109065600,
+  "duration": 111016300,
   "status": "passed"
 });
 formatter.background({
@@ -1859,7 +1859,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2643070600,
+  "duration": 2659231100,
   "status": "passed"
 });
 formatter.scenario({
@@ -1937,7 +1937,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 352261000,
+  "duration": 347602000,
   "status": "passed"
 });
 formatter.match({
@@ -1950,7 +1950,7 @@ formatter.match({
   "location": "CompraSteps.selecionouUmProduto(String)"
 });
 formatter.result({
-  "duration": 460572300,
+  "duration": 445019700,
   "status": "passed"
 });
 formatter.match({
@@ -1971,50 +1971,50 @@ formatter.match({
   "location": "CompraSteps.feito_o_checkout_e_preenchido(String,String,String)"
 });
 formatter.result({
-  "duration": 365319300,
+  "duration": 361341800,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.as_informacoes_de_checkou_sao_exibidas()"
 });
 formatter.result({
-  "duration": 104839200,
+  "duration": 89697200,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.clicado_em_Finish()"
 });
 formatter.result({
-  "duration": 84509500,
+  "duration": 80866000,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.a_compra_e_efetuada()"
 });
 formatter.result({
-  "duration": 147171100,
+  "duration": 147945300,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.eFeitoLogout()"
 });
 formatter.result({
-  "duration": 697398300,
+  "duration": 699663700,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded27.png");
 formatter.after({
-  "duration": 139544900,
+  "duration": 139578400,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded28.png");
 formatter.after({
-  "duration": 109923000,
+  "duration": 113537200,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded29.png");
 formatter.after({
-  "duration": 127657100,
+  "duration": 152107200,
   "status": "passed"
 });
 formatter.background({
@@ -2033,7 +2033,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2672636300,
+  "duration": 2636728300,
   "status": "passed"
 });
 formatter.scenario({
@@ -2111,7 +2111,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 349818900,
+  "duration": 349891100,
   "status": "passed"
 });
 formatter.match({
@@ -2124,7 +2124,7 @@ formatter.match({
   "location": "CompraSteps.selecionouUmProduto(String)"
 });
 formatter.result({
-  "duration": 442025400,
+  "duration": 443825800,
   "status": "passed"
 });
 formatter.match({
@@ -2145,50 +2145,50 @@ formatter.match({
   "location": "CompraSteps.feito_o_checkout_e_preenchido(String,String,String)"
 });
 formatter.result({
-  "duration": 365085100,
+  "duration": 362675300,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.as_informacoes_de_checkou_sao_exibidas()"
 });
 formatter.result({
-  "duration": 105749200,
+  "duration": 103919100,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.clicado_em_Finish()"
 });
 formatter.result({
-  "duration": 74398900,
+  "duration": 83392700,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.a_compra_e_efetuada()"
 });
 formatter.result({
-  "duration": 140615100,
+  "duration": 147606000,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.eFeitoLogout()"
 });
 formatter.result({
-  "duration": 701080400,
+  "duration": 705407100,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded30.png");
 formatter.after({
-  "duration": 137750800,
+  "duration": 128767800,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded31.png");
 formatter.after({
-  "duration": 112740500,
+  "duration": 112614000,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded32.png");
 formatter.after({
-  "duration": 125277500,
+  "duration": 112384400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2263,7 +2263,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2655479600,
+  "duration": 2601873800,
   "status": "passed"
 });
 formatter.scenario({
@@ -2316,14 +2316,14 @@ formatter.match({
   "location": "MultiplosUsuariosSteps.que_foi_incluido_e(String,String)"
 });
 formatter.result({
-  "duration": 193490300,
+  "duration": 206051200,
   "status": "passed"
 });
 formatter.match({
   "location": "MultiplosUsuariosSteps.clicar_em_Login()"
 });
 formatter.result({
-  "duration": 95028800,
+  "duration": 94521800,
   "status": "passed"
 });
 formatter.match({
@@ -2336,22 +2336,22 @@ formatter.match({
   "location": "MultiplosUsuariosSteps.sera_exibido(String)"
 });
 formatter.result({
-  "duration": 56337300,
+  "duration": 54416000,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded33.png");
 formatter.after({
-  "duration": 138897900,
+  "duration": 113498000,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded34.png");
 formatter.after({
-  "duration": 104255600,
+  "duration": 118042600,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded35.png");
 formatter.after({
-  "duration": 133146800,
+  "duration": 135140800,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2463,7 +2463,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2686725900,
+  "duration": 2654518600,
   "status": "passed"
 });
 formatter.scenario({
@@ -2534,7 +2534,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 341386200,
+  "duration": 336960300,
   "status": "passed"
 });
 formatter.match({
@@ -2547,7 +2547,7 @@ formatter.match({
   "location": "CompraSteps.selecionouUmProduto(String)"
 });
 formatter.result({
-  "duration": 450119400,
+  "duration": 440677000,
   "status": "passed"
 });
 formatter.match({
@@ -2568,7 +2568,7 @@ formatter.match({
   "location": "CompraSteps.feito_o_checkout_e_preenchido(String,String,String)"
 });
 formatter.result({
-  "duration": 364703200,
+  "duration": 362302700,
   "status": "passed"
 });
 formatter.match({
@@ -2581,29 +2581,29 @@ formatter.match({
   "location": "MultiplosUsuariosSteps.eExibidoDeErro(String)"
 });
 formatter.result({
-  "duration": 42102900,
+  "duration": 40896200,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.eFeitoLogout()"
 });
 formatter.result({
-  "duration": 704047700,
+  "duration": 698826300,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded36.png");
 formatter.after({
-  "duration": 136596200,
+  "duration": 158067200,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded37.png");
 formatter.after({
-  "duration": 112434900,
+  "duration": 118619200,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded38.png");
 formatter.after({
-  "duration": 113907300,
+  "duration": 134956500,
   "status": "passed"
 });
 formatter.background({
@@ -2622,7 +2622,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2695353000,
+  "duration": 2759823800,
   "status": "passed"
 });
 formatter.scenario({
@@ -2693,7 +2693,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 344510300,
+  "duration": 343431700,
   "status": "passed"
 });
 formatter.match({
@@ -2706,7 +2706,7 @@ formatter.match({
   "location": "CompraSteps.selecionouUmProduto(String)"
 });
 formatter.result({
-  "duration": 447746700,
+  "duration": 478193000,
   "status": "passed"
 });
 formatter.match({
@@ -2727,7 +2727,7 @@ formatter.match({
   "location": "CompraSteps.feito_o_checkout_e_preenchido(String,String,String)"
 });
 formatter.result({
-  "duration": 357564500,
+  "duration": 398835800,
   "status": "passed"
 });
 formatter.match({
@@ -2740,29 +2740,29 @@ formatter.match({
   "location": "MultiplosUsuariosSteps.eExibidoDeErro(String)"
 });
 formatter.result({
-  "duration": 42324300,
+  "duration": 52016400,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.eFeitoLogout()"
 });
 formatter.result({
-  "duration": 700211900,
+  "duration": 705812700,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded39.png");
 formatter.after({
-  "duration": 132460100,
+  "duration": 127943900,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded40.png");
 formatter.after({
-  "duration": 144657900,
+  "duration": 113229200,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded41.png");
 formatter.after({
-  "duration": 112157500,
+  "duration": 155176500,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2886,7 +2886,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2727821700,
+  "duration": 2727444600,
   "status": "passed"
 });
 formatter.scenario({
@@ -2969,7 +2969,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 356386800,
+  "duration": 349300700,
   "status": "passed"
 });
 formatter.match({
@@ -2982,7 +2982,7 @@ formatter.match({
   "location": "CompraSteps.selecionouUmProduto(String)"
 });
 formatter.result({
-  "duration": 447276300,
+  "duration": 471602100,
   "status": "passed"
 });
 formatter.match({
@@ -3003,43 +3003,43 @@ formatter.match({
   "location": "CompraSteps.feito_o_checkout_e_preenchido(String,String,String)"
 });
 formatter.result({
-  "duration": 360807100,
+  "duration": 363349600,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.as_informacoes_de_checkou_sao_exibidas()"
 });
 formatter.result({
-  "duration": 88566500,
+  "duration": 89504700,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.clicado_em_Finish()"
 });
 formatter.result({
-  "duration": 74281400,
+  "duration": 72715800,
   "status": "passed"
 });
 formatter.match({
   "location": "MultiplosUsuariosSteps.aCompraNaoFoiEfetuada()"
 });
 formatter.result({
-  "duration": 5250000,
+  "duration": 2805900,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded42.png");
 formatter.after({
-  "duration": 148312200,
+  "duration": 126561000,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded43.png");
 formatter.after({
-  "duration": 114784500,
+  "duration": 108083700,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded44.png");
 formatter.after({
-  "duration": 108875700,
+  "duration": 132258800,
   "status": "passed"
 });
 formatter.background({
@@ -3058,7 +3058,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2680594300,
+  "duration": 2770543400,
   "status": "passed"
 });
 formatter.scenario({
@@ -3141,7 +3141,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 347091300,
+  "duration": 346764400,
   "status": "passed"
 });
 formatter.match({
@@ -3154,7 +3154,7 @@ formatter.match({
   "location": "CompraSteps.selecionouUmProduto(String)"
 });
 formatter.result({
-  "duration": 456976300,
+  "duration": 445279700,
   "status": "passed"
 });
 formatter.match({
@@ -3175,43 +3175,43 @@ formatter.match({
   "location": "CompraSteps.feito_o_checkout_e_preenchido(String,String,String)"
 });
 formatter.result({
-  "duration": 364819700,
+  "duration": 362223300,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.as_informacoes_de_checkou_sao_exibidas()"
 });
 formatter.result({
-  "duration": 102781700,
+  "duration": 105348100,
   "status": "passed"
 });
 formatter.match({
   "location": "CompraSteps.clicado_em_Finish()"
 });
 formatter.result({
-  "duration": 71903900,
+  "duration": 70091400,
   "status": "passed"
 });
 formatter.match({
   "location": "MultiplosUsuariosSteps.aCompraNaoFoiEfetuada()"
 });
 formatter.result({
-  "duration": 2200500,
+  "duration": 2224800,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded45.png");
 formatter.after({
-  "duration": 130035500,
+  "duration": 134336600,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded46.png");
 formatter.after({
-  "duration": 136123600,
+  "duration": 121573700,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded47.png");
 formatter.after({
-  "duration": 118241900,
+  "duration": 125864100,
   "status": "passed"
 });
 });
