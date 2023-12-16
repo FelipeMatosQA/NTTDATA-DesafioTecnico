@@ -1,6 +1,6 @@
 Steps\CompraSteps.class
+Steps\MultiplosUsuariosSteps.class
 Steps\CarrinhoSteps.class
-Steps\TestStep.class
 Pages\CartPage.class
 Pages\CheckoutCompletePage.class
 Runner\RunCucumberTest.class

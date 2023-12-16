@@ -1,6 +1,9 @@
 package Steps;
 
 import Pages.*;
+import Suport.ScreenShotUtils;
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
 import cucumber.api.java.ca.I;
 import cucumber.api.java.pt.E;
 import cucumber.api.java.pt.Entao;
@@ -18,7 +21,7 @@ public class CompraSteps {
         inventoryPage.selectItemByIndex(index);
         inventoryPage.clickCartButton();
         cartPage.validateNameItem();
-        cartPage.validatePriceItem(1);
+        cartPage.validatePriceItem();
         cartPage.clickBtnCheckout();
     }
 
@@ -30,9 +33,7 @@ public class CompraSteps {
     @Quando("^as informacoes de checkou sao exibidas$")
     public void as_informacoes_de_checkou_sao_exibidas(){
 
-        //validar nome do produto
         checkoutTwoPage.validateNameItem();
-        //pegar preço do produto
         checkoutTwoPage.validateTotalPrice();
 
     }
@@ -46,6 +47,11 @@ public class CompraSteps {
     @Entao("^a compra e efetuada$")
     public void a_compra_e_efetuada() {
         checkoutCompletePage.validatePurchase();
+    }
+
+    @After
+    public static void afterScenario(Scenario scenario) {
+        ScreenShotUtils.takeScreenshotOnScenario(scenario);
     }
 
 

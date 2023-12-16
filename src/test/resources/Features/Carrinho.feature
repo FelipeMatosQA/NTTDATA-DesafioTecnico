@@ -3,9 +3,12 @@
 Funcionalidade: Carrinho de compras
 
   Contexto:
+
     Dado Que eu acessei a aplicacao
 
-  Esquema do Cenario: : Validar valores dos itens no carrinho
+  @Carrinho
+  Esquema do Cenario: : Validar valor do item adicionado ao carrinho
+
     Dado Que o usuario efetuou login incluindo "<username>" e "<password>"
     Quando um item "<index>"e adicionado ao carrinho
     E o carrinho e acessado
@@ -31,3 +34,4 @@ Funcionalidade: Carrinho de compras
       #|    username   |   password   |   index1 | index2  |
       #| standard_user | secret_sauce |     1    |    2    |
       #| standard_user | secret_sauce |     3    |    4    |
+

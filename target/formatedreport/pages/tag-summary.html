@@ -76,21 +76,70 @@ font-src * data: blob: 'unsafe-inline';"/>
             var ctx = canvas.getContext("2d");
             var chart = new Chart(ctx, {
   "data": {
-    "labels": [],
+    "labels": [
+      "@Compra-multi-user",
+      "@Problem-user",
+      "@Error-user",
+      "@Carrinho",
+      "@Locked-out-user",
+      "@Compra"
+    ],
     "datasets": [
       {
-        "data": [],
-        "backgroundColor": [],
+        "data": [
+          6.0,
+          2.0,
+          2.0,
+          2.0,
+          1.0,
+          3.0
+        ],
+        "backgroundColor": [
+          "rgba(96, 204, 121, 1.000)",
+          "rgba(96, 204, 121, 1.000)",
+          "rgba(96, 204, 121, 1.000)",
+          "rgba(96, 204, 121, 1.000)",
+          "rgba(96, 204, 121, 1.000)",
+          "rgba(96, 204, 121, 1.000)"
+        ],
         "label": "passed"
       },
       {
-        "data": [],
-        "backgroundColor": [],
+        "data": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "backgroundColor": [
+          "rgba(252, 113, 128, 1.000)",
+          "rgba(252, 113, 128, 1.000)",
+          "rgba(252, 113, 128, 1.000)",
+          "rgba(252, 113, 128, 1.000)",
+          "rgba(252, 113, 128, 1.000)",
+          "rgba(252, 113, 128, 1.000)"
+        ],
         "label": "failed"
       },
       {
-        "data": [],
-        "backgroundColor": [],
+        "data": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "backgroundColor": [
+          "rgba(247, 196, 43, 1.000)",
+          "rgba(247, 196, 43, 1.000)",
+          "rgba(247, 196, 43, 1.000)",
+          "rgba(247, 196, 43, 1.000)",
+          "rgba(247, 196, 43, 1.000)",
+          "rgba(247, 196, 43, 1.000)"
+        ],
         "label": "skipped"
       }
     ]
@@ -107,7 +156,7 @@ font-src * data: blob: 'unsafe-inline';"/>
           "stacked": true,
           "scaleLabel": {
             "display": true,
-            "labelString": "0 Tags"
+            "labelString": "6 Tags"
           },
           "stepSize": 0.0
         }
@@ -116,7 +165,7 @@ font-src * data: blob: 'unsafe-inline';"/>
         {
           "ticks": {
             "min": 0,
-            "stepSize": 0.0,
+            "stepSize": 6.0,
             "display": true
           },
           "stacked": true,
@@ -219,7 +268,7 @@ font-src * data: blob: 'unsafe-inline';"/>
                         <a class="nav-link " href="pages/feature-summary.html">All Features</a>
                 </li>
             </ul>
-            <span class="text-light">2023-12-16 01:45:24</span>
+            <span class="text-light">2023-12-16 14:33:52</span>
         </div>
     </nav>
     <main role="main" class="container">
@@ -245,14 +294,14 @@ font-src * data: blob: 'unsafe-inline';"/>
                 <div class="card-header">Tag Summary</div>
             <div class="card-body">
             <ul class="list-group list-group-flush" data-cluecumber-item="tag-summary">
-                <li class="list-group-item">0         Tag
+                <li class="list-group-item">6         Tags
  in
                     <br>
-                    0 Tagged         Scenario
+                    16 Tagged         Scenarios
 
                 </li>
                 <li class="list-group-item">
-                    0 passed     <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+                    16 passed     <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
        title="passed"><span style="display:none">passed</span></i>
 
                     <br>
@@ -292,6 +341,54 @@ font-src * data: blob: 'unsafe-inline';"/>
                 </tr>
                 </thead>
                 <tbody>
+                    <tr>
+                        <td class="text-left"><a
+                                    href="pages/tag-scenarios/tag_Compra-multi-user.html">@Compra-multi-user</a></td>
+                        <td class="text-right"><strong>6</strong></td>
+                        <td class="text-right passedCell">6</td>
+                        <td class="text-right failedCell">0</td>
+                        <td class="text-right skippedCell">0</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left"><a
+                                    href="pages/tag-scenarios/tag_Problem-user.html">@Problem-user</a></td>
+                        <td class="text-right"><strong>2</strong></td>
+                        <td class="text-right passedCell">2</td>
+                        <td class="text-right failedCell">0</td>
+                        <td class="text-right skippedCell">0</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left"><a
+                                    href="pages/tag-scenarios/tag_Error-user.html">@Error-user</a></td>
+                        <td class="text-right"><strong>2</strong></td>
+                        <td class="text-right passedCell">2</td>
+                        <td class="text-right failedCell">0</td>
+                        <td class="text-right skippedCell">0</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left"><a
+                                    href="pages/tag-scenarios/tag_Carrinho.html">@Carrinho</a></td>
+                        <td class="text-right"><strong>2</strong></td>
+                        <td class="text-right passedCell">2</td>
+                        <td class="text-right failedCell">0</td>
+                        <td class="text-right skippedCell">0</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left"><a
+                                    href="pages/tag-scenarios/tag_Locked-out-user.html">@Locked-out-user</a></td>
+                        <td class="text-right"><strong>1</strong></td>
+                        <td class="text-right passedCell">1</td>
+                        <td class="text-right failedCell">0</td>
+                        <td class="text-right skippedCell">0</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left"><a
+                                    href="pages/tag-scenarios/tag_Compra.html">@Compra</a></td>
+                        <td class="text-right"><strong>3</strong></td>
+                        <td class="text-right passedCell">3</td>
+                        <td class="text-right failedCell">0</td>
+                        <td class="text-right skippedCell">0</td>
+                    </tr>
                 </tbody>
             </table>
             </div>
@@ -303,7 +400,7 @@ font-src * data: blob: 'unsafe-inline';"/>
 
 <footer class="footer navbar-dark">
     <div class="container-fluid">
-        <span><a href="https://github.com/trivago/cluecumber-report-plugin" target="_blank" class="text-white">Cluecumber Report Plugin version 2.9.4</a> - Report generated on 2023-12-16 01:45:24.</span>
+        <span><a href="https://github.com/trivago/cluecumber-report-plugin" target="_blank" class="text-white">Cluecumber Report Plugin version 2.9.4</a> - Report generated on 2023-12-16 14:33:52.</span>
     </div>
 </footer>    </body>
     </html>

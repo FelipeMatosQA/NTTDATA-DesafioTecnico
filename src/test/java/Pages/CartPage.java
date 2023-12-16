@@ -26,6 +26,11 @@ public class CartPage extends RunCucumberTest {
         }
     }
 
+    public void validatePriceItem(){
+        InventoryPage inventoryPage = new InventoryPage();
+        checkText(priceItem, inventoryPage.getPriceItem());
+    }
+
     public void validateNameItem(){
         InventoryPage inventoryPage = new InventoryPage();
         checkText(nameItem,inventoryPage.getNameItem());

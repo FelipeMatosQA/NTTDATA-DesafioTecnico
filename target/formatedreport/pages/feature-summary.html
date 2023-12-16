@@ -77,32 +77,46 @@ font-src * data: blob: 'unsafe-inline';"/>
             var chart = new Chart(ctx, {
   "data": {
     "labels": [
-      "Carrinho de compras"
+      "Carrinho de compras",
+      "Fluxo de compra com multiplos usuários",
+      "Efetuar compra"
     ],
     "datasets": [
       {
         "data": [
-          0.0
+          2.0,
+          11.0,
+          3.0
         ],
         "backgroundColor": [
+          "rgba(96, 204, 121, 1.000)",
+          "rgba(96, 204, 121, 1.000)",
           "rgba(96, 204, 121, 1.000)"
         ],
         "label": "passed"
       },
       {
         "data": [
-          2.0
+          0.0,
+          0.0,
+          0.0
         ],
         "backgroundColor": [
+          "rgba(252, 113, 128, 1.000)",
+          "rgba(252, 113, 128, 1.000)",
           "rgba(252, 113, 128, 1.000)"
         ],
         "label": "failed"
       },
       {
         "data": [
+          0.0,
+          0.0,
           0.0
         ],
         "backgroundColor": [
+          "rgba(247, 196, 43, 1.000)",
+          "rgba(247, 196, 43, 1.000)",
           "rgba(247, 196, 43, 1.000)"
         ],
         "label": "skipped"
@@ -121,7 +135,7 @@ font-src * data: blob: 'unsafe-inline';"/>
           "stacked": true,
           "scaleLabel": {
             "display": true,
-            "labelString": "1 Features"
+            "labelString": "3 Features"
           },
           "stepSize": 0.0
         }
@@ -130,7 +144,7 @@ font-src * data: blob: 'unsafe-inline';"/>
         {
           "ticks": {
             "min": 0,
-            "stepSize": 2.0,
+            "stepSize": 11.0,
             "display": true
           },
           "stacked": true,
@@ -233,7 +247,7 @@ font-src * data: blob: 'unsafe-inline';"/>
                         <a class="nav-link text-white" href="pages/feature-summary.html">All Features</a>
                 </li>
             </ul>
-            <span class="text-light">2023-12-16 01:45:24</span>
+            <span class="text-light">2023-12-16 14:33:52</span>
         </div>
     </nav>
     <main role="main" class="container">
@@ -260,18 +274,18 @@ font-src * data: blob: 'unsafe-inline';"/>
             <div class="card-body">
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                    2         Scenarios
+                    16         Scenarios
 <br>
                     in
-                    1         Feature
+                    3         Features
 
                 </li>
                 <li class="list-group-item">
-                    0 passed     <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
+                    16 passed     <i class="color-passed cluecumber-icon icon-passed" data-toggle="tooltip"
        title="passed"><span style="display:none">passed</span></i>
 
                     <br>
-                    2 failed     <i class="color-failed cluecumber-icon icon-failed" data-toggle="tooltip"
+                    0 failed     <i class="color-failed cluecumber-icon icon-failed" data-toggle="tooltip"
        title="failed"><span style="display:none">failed</span></i>
 
                     <br>
@@ -312,8 +326,26 @@ font-src * data: blob: 'unsafe-inline';"/>
                                     href="pages/feature-scenarios/feature_0.html">Carrinho de compras</a>
                         </td>
                         <td class="text-right"><strong>2</strong></td>
-                        <td class="text-right passedCell">0</td>
-                        <td class="text-right failedCell">2</td>
+                        <td class="text-right passedCell">2</td>
+                        <td class="text-right failedCell">0</td>
+                        <td class="text-right skippedCell">0</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left"><a
+                                    href="pages/feature-scenarios/feature_2.html">Fluxo de compra com multiplos usuários</a>
+                        </td>
+                        <td class="text-right"><strong>11</strong></td>
+                        <td class="text-right passedCell">11</td>
+                        <td class="text-right failedCell">0</td>
+                        <td class="text-right skippedCell">0</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left"><a
+                                    href="pages/feature-scenarios/feature_1.html">Efetuar compra</a>
+                        </td>
+                        <td class="text-right"><strong>3</strong></td>
+                        <td class="text-right passedCell">3</td>
+                        <td class="text-right failedCell">0</td>
                         <td class="text-right skippedCell">0</td>
                     </tr>
                 </tbody>
@@ -327,7 +359,7 @@ font-src * data: blob: 'unsafe-inline';"/>
 
 <footer class="footer navbar-dark">
     <div class="container-fluid">
-        <span><a href="https://github.com/trivago/cluecumber-report-plugin" target="_blank" class="text-white">Cluecumber Report Plugin version 2.9.4</a> - Report generated on 2023-12-16 01:45:24.</span>
+        <span><a href="https://github.com/trivago/cluecumber-report-plugin" target="_blank" class="text-white">Cluecumber Report Plugin version 2.9.4</a> - Report generated on 2023-12-16 14:33:52.</span>
     </div>
 </footer>    </body>
     </html>

@@ -15,6 +15,8 @@ public class LoginPage extends RunCucumberTest {
 
     private By btnLogin = By.id("login-button");
 
+    private By errorMsg =  By.cssSelector("h3[data-test =\"error\"]");
+
 
     public void accessApp(){
         getDriver(System.getProperty("browser"));
@@ -31,6 +33,14 @@ public class LoginPage extends RunCucumberTest {
 
     public void clickLogin(){
         clickElement(btnLogin);
+    }
+
+    public String errorMessageText(){
+        return getTextElement(errorMsg);
+    }
+
+    public void validadeErrorMessage(String message){
+        checkText(errorMsg,message);
     }
 
     public void validateLogin(){

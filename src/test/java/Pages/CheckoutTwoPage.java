@@ -36,7 +36,9 @@ public class CheckoutTwoPage extends RunCucumberTest {
 
     public void clickFinishBtn(){
         clickElement(finishBtn);
-        validateCurrentUrl("https://www.saucedemo.com/checkout-complete.html");
+    }
+    public void valdateCurrentUrl(){
+        validateCurrentUrl("https://www.saucedemo.com/checkout-step-two.html");
     }
 
 }

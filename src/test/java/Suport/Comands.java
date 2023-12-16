@@ -25,7 +25,7 @@ public class Comands extends RunCucumberTest {
     public static void checkText(By element, String expectedMensage){
         System.out.println("######################################");
         Utils.waitToElementBeVisible(element,10);
-        Assert.assertEquals("Erro ao validar a mensagem.",expectedMensage,getDriver().findElement(element).getText());
+        Assert.assertEquals("Erro ao validar a mensagem.",expectedMensage,getTextElement(element));
         System.out.println("Validou a mensagem "+ expectedMensage);
         System.out.println("######################################");
     }

@@ -4,8 +4,7 @@ import Runner.RunCucumberTest;
 import Suport.Comands;
 import org.openqa.selenium.By;
 
-import static Suport.Comands.clickElement;
-import static Suport.Comands.fillField;
+import static Suport.Comands.*;
 
 public class CheckoutOnePage extends RunCucumberTest {
 
@@ -15,7 +14,9 @@ public class CheckoutOnePage extends RunCucumberTest {
 
     private By postalCodeField = By.id("postal-code");
 
-    private By btnContinue = By.id("continue");
+    private By continueBtn = By.id("continue");
+
+    private By errorMessage = By.xpath("//h3[@data-test=\"error\"]");
 
     public void fillFirstNameField(String firstName){
         fillField(fistNameField,firstName);
@@ -30,7 +31,7 @@ public class CheckoutOnePage extends RunCucumberTest {
     }
 
     public void clickBtnContinue(){
-        clickElement(btnContinue);
+        clickElement(continueBtn);
     }
 
     public void completeCheckout(String fistName, String lastName, String postalCode){
@@ -38,5 +39,9 @@ public class CheckoutOnePage extends RunCucumberTest {
         fillLastNameFIeld(lastName);
         fillPostalCode(postalCode);
         clickBtnContinue();
+    }
+
+    public void validateMessageError(String message){
+        checkText(errorMessage,message);
     }
 }
