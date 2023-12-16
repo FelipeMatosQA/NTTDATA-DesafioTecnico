@@ -1,0 +1,246 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 2948046400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Que eu acessei a aplicacao",
+            "match": {
+              "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": ": Validar valores dos itens no carrinho",
+        "description": "",
+        "id": "carrinho-de-compras;:-validar-valores-dos-itens-no-carrinho;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 422440100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Que o usuario efetuou login incluindo \"standard_user\" e \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 39
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 57
+                }
+              ],
+              "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 185070400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "um item \"1\"e adicionado ao carrinho",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 9
+                }
+              ],
+              "location": "CarrinhoSteps.umItemEAdicionadoAoCarrinho(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 105141300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o carrinho e acessado",
+            "match": {
+              "location": "CarrinhoSteps.o_carrinho_e_acessado()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 109948800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o produto e adicionado ao carrinho",
+            "match": {
+              "location": "CarrinhoSteps.o_produto_e_adicionado_ao_carrinho()"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 733493100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "e feito logout",
+            "match": {
+              "location": "CarrinhoSteps.eFeitoLogout()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 2604720800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Que eu acessei a aplicacao",
+            "match": {
+              "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": ": Validar valores dos itens no carrinho",
+        "description": "",
+        "id": "carrinho-de-compras;:-validar-valores-dos-itens-no-carrinho;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 347232700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Que o usuario efetuou login incluindo \"standard_user\" e \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 39
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 57
+                }
+              ],
+              "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 196716900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "um item \"2\"e adicionado ao carrinho",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 9
+                }
+              ],
+              "location": "CarrinhoSteps.umItemEAdicionadoAoCarrinho(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 122127400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o carrinho e acessado",
+            "match": {
+              "location": "CarrinhoSteps.o_carrinho_e_acessado()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 100571100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o produto e adicionado ao carrinho",
+            "match": {
+              "location": "CarrinhoSteps.o_produto_e_adicionado_ao_carrinho()"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 696574700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "e feito logout",
+            "match": {
+              "location": "CarrinhoSteps.eFeitoLogout()"
+            },
+            "keyword": "E "
+          }
+        ]
+      }
+    ],
+    "name": "Carrinho de compras",
+    "description": "",
+    "id": "carrinho-de-compras",
+    "keyword": "Funcionalidade",
+    "uri": "Carrinho.feature"
+  }
+]

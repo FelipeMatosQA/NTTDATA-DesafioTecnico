@@ -1,0 +1,10 @@
+Steps\CarrinhoSteps.class
+Suport\Comands.class
+Steps\TestStep.class
+Suport\Utils.class
+Pages\CartPage.class
+Pages\LoginPage.class
+Pages\InventoryPage.class
+Runner\RunBase.class
+Runner\RunCucumberTest.class
+Suport\ScreenShotUtils.class
