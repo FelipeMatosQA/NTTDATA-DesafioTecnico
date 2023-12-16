@@ -33,6 +33,10 @@ public class InventoryPage extends RunCucumberTest {
 
     private By cartIcon = By.cssSelector(".shopping_cart_badge");
 
+    private By checkoutElement = By.id("checkout");
+
+    private By removeItem1 = By.id("remove-sauce-labs-backpack");
+
     public String getNameItemByIndex(String index){
         String xpath = String.format(genericItemName,index);
         return getTextElement(By.xpath(xpath));
@@ -87,7 +91,7 @@ public class InventoryPage extends RunCucumberTest {
 
     public void clickCartButton(){
         clickElement(cartBtn);
-        Utils.waitToElementBeVisible(By.id("checkout"),10);
+        Utils.waitToElementBeVisible(checkoutElement,10);
     }
 
     public void logout(){
@@ -98,6 +102,10 @@ public class InventoryPage extends RunCucumberTest {
 
     public void validateNumberOfItensInTheCart(String itens){
         checkText(cartIcon, itens);
+    }
+
+    public void clickRemoveBtnFirstItem(){
+        clickElement(removeItem1);
     }
 
 

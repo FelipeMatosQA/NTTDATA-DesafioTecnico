@@ -2,10 +2,16 @@
 
 Funcionalidade: Fluxo de compra com multiplos usuários
 
+  Como usuário,
+  Quero concluir minhas compras online com facilidade,
+  Para ter uma experiência de compra positiva.
+
   Contexto:
 
     Dado Que eu acessei a aplicacao
 
+  @Id-6
+  @Item-4
   @Compra-multi-user
   Esquema do Cenario: : Efetuar compra com multiplos usuarios com fluxo nao impeditivo e validar valor total
 
@@ -26,6 +32,9 @@ Funcionalidade: Fluxo de compra com multiplos usuários
       |       visual_user       | secret_sauce |    1    |   Heberth  |   Silva     |   99864436  |
       |       visual_user       | secret_sauce |    2    |   Talita   | Nascimento  |   99633551  |
 
+
+  @Id-7
+  @Item-4
   @Locked-out-user
   Esquema do Cenario: Efetuar login com usuario locked-out-user
 
@@ -39,6 +48,9 @@ Funcionalidade: Fluxo de compra com multiplos usuários
       |       login        |     senha        |                       mensagem                            |
       |  locked_out_user   |  secret_sauce    | Epic sadface: Sorry, this user has been locked out.       |
 
+
+  @Id-8
+  @Item-4
   @Problem-user
   Esquema do Cenario: Fluxo de compra com usuario com problema
 
@@ -53,10 +65,11 @@ Funcionalidade: Fluxo de compra com multiplos usuários
     Exemplos:
       |        username         |   password   |  index  |    nome    |  sobrenome  |  postalcode   |               mensagem                 |
       |      problem_user       | secret_sauce |    1    |   Luana    |   Flores    |    86364895   |    Error: Last Name is required        |
-      |      problem_user       | secret_sauce |    2   |   Viviane  |   Macedo     |    18264976   |    Error: Last Name is required        |
+      |      problem_user       | secret_sauce |    2    |   Viviane  |   Macedo    |    18264976   |    Error: Last Name is required        |
       #|      problem_user       | secret_sauce |    3   |   Viviane  |   Macedo    |    18264976    |    Error: Last Name is required        |
 
-
+  @Id-9
+  @Item-4
   @Error-user
   Esquema do Cenario: Fluxo de compra com usuario com erro
     Dado Que o usuario efetuou login incluindo "<username>" e "<password>"
@@ -67,6 +80,7 @@ Funcionalidade: Fluxo de compra com multiplos usuários
     #O step a seguir(Que está comentado) seria o correto, dentro do contexto de falha, foi criado um step que indica que a compra não foi feita.
     #Entao a compra e efetuada
     Entao a compra nao foi efetuada
+    E e feito logout
 
     Exemplos:
       |        username       |   password   |  index  |    nome    |  sobrenome  |  postalcode   |

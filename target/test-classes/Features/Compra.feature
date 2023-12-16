@@ -2,11 +2,18 @@
 
 Funcionalidade: Efetuar compra
 
+  Como usuário,
+  Quero concluir minhas compras online com facilidade,
+  Para ter uma experiência de compra positiva.
+
   Contexto:
 
     Dado Que eu acessei a aplicacao
     Dado Que o usuario efetuou login incluindo "standard_user" e "secret_sauce"
 
+
+    @Id-5
+    @Item-2
     @Compra
     Esquema do Cenario: : Efetuar compra e validar valor total
 

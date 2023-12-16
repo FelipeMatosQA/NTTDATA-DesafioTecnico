@@ -68,13 +68,29 @@ public class CarrinhoSteps {
     }
 
 
-    @Entao("^o iconde do carrinho deve ser alterado com a quantidade de itens$")
-    public void oIcondeDoCarrinhoDeveSerAlteradoComAQuantidadeDeItens() {
+    @Entao("^o icone do carrinho deve ser alterado com a quantidade de itens$")
+    public void oIconeDoCarrinhoDeveSerAlteradoComAQuantidadeDeItens() {
         inventoryPage.validateNumberOfItensInTheCart("2");
     }
 
     @AfterClass
     public static void afterScenario(Scenario scenario) {
         ScreenShotUtils.takeScreenshotOnScenario(scenario);
+    }
+
+    @Dado("^que multiplos itens\"([^\"]*)\" \"([^\"]*)\" sao adicionados ao carrinho$")
+    public void queMultiplosItensSaoAdicionadosAoCarrinho(String index1, String index2) {
+        inventoryPage.selectItemByIndex(index1);
+        inventoryPage.selectSecondItemByIndex(index2);
+    }
+
+    @Entao("^o icone do carrinho deve ser subtraido$")
+    public void oIconeDoCarrinhoDeveSerSubtraido() {
+        inventoryPage.validateNumberOfItensInTheCart("1");
+    }
+
+    @Quando("^o botao remover e clicado$")
+    public void oBotaoRemoverEClicado() {
+        inventoryPage.clickRemoveBtnFirstItem();
     }
 }
