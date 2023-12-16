@@ -22,16 +22,18 @@ Funcionalidade: Carrinho de compras
     | standard_user | secret_sauce |     1    |
     | standard_user | secret_sauce |     2    |
 
-  #Esquema do Cenario: Validar valores de multiplos itens no carrinho
 
-    #Dado Que o usuario efetuou login incluindo "<username>" e "<password>"
-    #Quando multiplos itens"<index1>" "<index2>" sao adicionados ao carrinho
-    #E o carrinho e acessado
-    #Entao os produtos sao adicionados ao carrinho
+    @Ignore
+  Esquema do Cenario: Validar valores de multiplos itens no carrinho
 
-    #Exemplos:
+    Dado Que o usuario efetuou login incluindo "<username>" e "<password>"
+    Quando multiplos itens"<index1>" "<index2>" sao adicionados ao carrinho
+    E o carrinho e acessado
+    Entao os produtos sao adicionados ao carrinho
 
-      #|    username   |   password   |   index1 | index2  |
-      #| standard_user | secret_sauce |     1    |    2    |
-      #| standard_user | secret_sauce |     3    |    4    |
+    Exemplos:
+
+      |    username   |   password   |   index1 | index2  |
+      | standard_user | secret_sauce |     1    |    2    |
+      | standard_user | secret_sauce |     3    |    4    |
 
