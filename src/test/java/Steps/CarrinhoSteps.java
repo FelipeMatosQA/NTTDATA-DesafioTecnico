@@ -3,7 +3,10 @@ package Steps;
 import Pages.CartPage;
 import Pages.InventoryPage;
 import Pages.LoginPage;
+import Suport.ScreenShotUtils;
 import cucumber.api.PendingException;
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.E;
 import cucumber.api.java.pt.Entao;
@@ -35,7 +38,7 @@ public class CarrinhoSteps {
 
     @Entao("^o produto e adicionado ao carrinho$")
     public void o_produto_e_adicionado_ao_carrinho()  {
-        cartPage.validatePriceItem();
+        cartPage.validatePriceItem(1);
         cartPage.validateNameItem();
     }
 
@@ -48,4 +51,21 @@ public class CarrinhoSteps {
     public void eFeitoLogout() {
         inventoryPage.logout();
     }
+
+    @Quando("^multiplos itens\"([^\"]*)\" \"([^\"]*)\" sao adicionados ao carrinho$")
+    public void multiplosItensSaoAdicionadosAoCarrinho(String index1, String index2) {
+        inventoryPage.selectItemByIndex(index1);
+        inventoryPage.selectSecondItemByIndex(index2);
+    }
+
+    @Entao("^os produtos sao adicionados ao carrinho$")
+    public void osProdutosSaoAdicionadosAoCarrinho() {
+        cartPage.validatePriceItem(1);
+        cartPage.validatePriceItem(2);
+    }
+    @After
+    public static void afterScenario(Scenario scenario) {
+            ScreenShotUtils.takeScreenshotOnScenario(scenario);
+    }
+
 }

@@ -5,6 +5,7 @@ import Runner.RunCucumberTest;
 import org.openqa.selenium.By;
 
 import static Suport.Comands.checkText;
+import static Suport.Comands.clickElement;
 
 public class CartPage extends RunCucumberTest {
 
@@ -12,16 +13,25 @@ public class CartPage extends RunCucumberTest {
 
     private By priceItem = By.xpath("//div[@class=\"cart_item\"][1]//div[@class=\"inventory_item_price\"]");
 
+    private By priceItem2 = By.xpath("//div[@class=\"cart_item\"][1]//div[@class=\"inventory_item_price\"]");
 
+    private By btnCheckout = By.id("checkout");
 
-    public void validatePriceItem(){
+    public void validatePriceItem(Integer index){
         InventoryPage inventoryPage = new InventoryPage();
-        checkText(priceItem,inventoryPage.getPriceItem());
+        if(index == 1) {
+            checkText(priceItem, inventoryPage.getPriceItem());
+        }else if(index == 2){
+            checkText(priceItem2, inventoryPage.getPriceItem2());
+        }
     }
 
     public void validateNameItem(){
         InventoryPage inventoryPage = new InventoryPage();
         checkText(nameItem,inventoryPage.getNameItem());
+    }
 
+    public void clickBtnCheckout(){
+        clickElement(btnCheckout);
     }
 }

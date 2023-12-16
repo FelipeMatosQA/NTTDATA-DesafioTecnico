@@ -1,10 +1,14 @@
+Steps\CompraSteps.class
 Steps\CarrinhoSteps.class
-Suport\Comands.class
 Steps\TestStep.class
-Suport\Utils.class
 Pages\CartPage.class
+Pages\CheckoutCompletePage.class
+Runner\RunCucumberTest.class
+Suport\Comands.class
+Pages\CheckoutOnePage.class
+Pages\CheckoutTwoPage.class
+Suport\Utils.class
 Pages\LoginPage.class
 Pages\InventoryPage.class
 Runner\RunBase.class
-Runner\RunCucumberTest.class
 Suport\ScreenShotUtils.class

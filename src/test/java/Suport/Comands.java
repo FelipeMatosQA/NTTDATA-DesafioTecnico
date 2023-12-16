@@ -33,11 +33,22 @@ public class Comands extends RunCucumberTest {
         Assert.assertEquals(expectedValue,currentValue);
     }
 
+    public static void floatAssert(float value1, float value2){
+        Assert.assertEquals(value1,value2,0.001f);
+    }
+
     public static void validateCurrentUrl(String expectedUrl){
         simpleAssert(expectedUrl,getDriver().getCurrentUrl());
     }
 
     public static String getTextElement(By element){
         return getDriver().findElement(element).getText();
+    }
+
+    public static Float convertStringToFloat(By element){
+        String stringValue = getTextElement(element);
+        String numericValue = stringValue.replaceAll("[^0-9.]", "");
+        float number = Float.parseFloat(numericValue);
+        return number;
     }
 }

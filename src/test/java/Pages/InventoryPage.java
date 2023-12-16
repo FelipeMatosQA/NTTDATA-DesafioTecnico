@@ -16,6 +16,10 @@ public class InventoryPage extends RunCucumberTest {
 
     public static String nameItem = null;
 
+    public static String priceItem2 = null;
+
+    public static String nameItem2 = null;
+
     private String genericItemName = "//div[@class=\"inventory_item\"][%s]//div[@class=\"inventory_item_name \"]";
 
     private String genericPriceItem = "//div[@class=\"inventory_item\"][%s]//div[@class=\"inventory_item_price\"]";
@@ -37,8 +41,16 @@ public class InventoryPage extends RunCucumberTest {
         return priceItem;
     }
 
+    public String getPriceItem2(){
+        return priceItem2;
+    }
+
     public String getNameItem(){
         return nameItem;
+    }
+
+    public String getNameItem2(){
+        return nameItem2;
     }
 
     public String getPriceItemByIndex(String index){
@@ -58,7 +70,12 @@ public class InventoryPage extends RunCucumberTest {
         nameItem = getNameItemByIndex(index);
         priceItem = getPriceItemByIndex(index);
         clickAddToCartByIndex(index);
+    }
 
+    public void selectSecondItemByIndex(String index2){
+        nameItem2 = getNameItemByIndex(index2);
+        priceItem2 = getPriceItemByIndex(index2);
+        clickAddToCartByIndex(index2);
     }
 
     public void clickCartButton(){
