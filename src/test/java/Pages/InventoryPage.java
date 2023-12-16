@@ -69,12 +69,18 @@ public class InventoryPage extends RunCucumberTest {
         nameItem = getNameItemByIndex(index);
         priceItem = getPriceItemByIndex(index);
         clickAddToCartByIndex(index);
+
+        System.out.println("name item 1 = " + nameItem);
+        System.out.println("price item 1 = " + priceItem);
     }
 
     public void selectSecondItemByIndex(String index2){
         nameItem2 = getNameItemByIndex(index2);
         priceItem2 = getPriceItemByIndex(index2);
         clickAddToCartByIndex(index2);
+
+        System.out.println("name item 2 = " + nameItem2);
+        System.out.println("price item 2 = " + priceItem2);
     }
 
     public void clickCartButton(){

@@ -38,7 +38,7 @@ public class CarrinhoSteps {
 
     @Entao("^o produto e adicionado ao carrinho$")
     public void o_produto_e_adicionado_ao_carrinho()  {
-        cartPage.validatePriceItem(1);
+        cartPage.validatePriceItem();
         cartPage.validateNameItem();
     }
 
@@ -60,7 +60,7 @@ public class CarrinhoSteps {
 
     @Entao("^os produtos sao adicionados ao carrinho$")
     public void osProdutosSaoAdicionadosAoCarrinho() {
-        cartPage.validatePriceItem(1);
+        cartPage.validatePriceItem();
         cartPage.validatePriceItem(2);
     }
     @After

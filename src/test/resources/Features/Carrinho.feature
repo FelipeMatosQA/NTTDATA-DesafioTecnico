@@ -23,7 +23,7 @@ Funcionalidade: Carrinho de compras
     | standard_user | secret_sauce |     2    |
 
 
-    @Ignore
+  @Carrinho
   Esquema do Cenario: Validar valores de multiplos itens no carrinho
 
     Dado Que o usuario efetuou login incluindo "<username>" e "<password>"

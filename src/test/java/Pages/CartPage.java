@@ -13,7 +13,7 @@ public class CartPage extends RunCucumberTest {
 
     private By priceItem = By.xpath("//div[@class=\"cart_item\"][1]//div[@class=\"inventory_item_price\"]");
 
-    private By priceItem2 = By.xpath("//div[@class=\"cart_item\"][1]//div[@class=\"inventory_item_price\"]");
+    private By priceItem2 = By.xpath("//div[@class=\"cart_item\"][2]//div[@class=\"inventory_item_price\"]");
 
     private By btnCheckout = By.id("checkout");
 
