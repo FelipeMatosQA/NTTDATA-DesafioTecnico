@@ -66,7 +66,7 @@ Funcionalidade: Carrinho de compras
 
   @Id-4
   @Extra
-  @Carrinho
+  @Carrinho1
   Esquema do Cenario: Validar contagem de itens no carrinho pelo icone
 
 
@@ -77,5 +77,5 @@ Funcionalidade: Carrinho de compras
     Exemplos:
       |  index1  | index2  |
       |     1    |    2    |
-      |     3    |    4    |
+      |     3    |    1    |
 
