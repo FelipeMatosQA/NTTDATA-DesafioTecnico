@@ -66,7 +66,7 @@ Funcionalidade: Fluxo de compra com multiplos usuários
       |        username         |   password   |  index  |    nome    |  sobrenome  |  postalcode   |               mensagem                 |
       |      problem_user       | secret_sauce |    1    |   Luana    |   Flores    |    86364895   |    Error: Last Name is required        |
       |      problem_user       | secret_sauce |    2    |   Viviane  |   Macedo    |    18264976   |    Error: Last Name is required        |
-      #|      problem_user       | secret_sauce |    3   |   Viviane  |   Macedo    |    18264976    |    Error: Last Name is required        |
+
 
   @Id-9
   @Item-4
