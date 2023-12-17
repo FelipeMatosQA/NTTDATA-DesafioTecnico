@@ -45,7 +45,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: tests-report
-          path: '**/formatedreport/'
+          path: '**/HTMLReport/'
 
       - name: Slack Notification - Success
         if: ${{success()}}

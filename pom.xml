@@ -79,7 +79,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <customParametersDisplayMode>ALL_PAGES</customParametersDisplayMode>
+                    <customParametersFile>src/test/resources/customParameters.properties</customParametersFile>
                     <sourceJsonReportDirectory>${project.build.directory}/reports</sourceJsonReportDirectory>
                     <generatedHtmlReportDirectory>${project.build.directory}/HTMLReport</generatedHtmlReportDirectory>
                 </configuration>

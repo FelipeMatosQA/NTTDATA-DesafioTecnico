@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Runner.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.132 s - in Runner.RunCucumberTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.795 s - in Runner.RunCucumberTest

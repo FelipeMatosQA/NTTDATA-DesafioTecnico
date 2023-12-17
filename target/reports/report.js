@@ -103,7 +103,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 3612660800,
+  "duration": 2853882900,
   "status": "passed"
 });
 formatter.match({
@@ -120,7 +120,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 488846200,
+  "duration": 385329800,
   "status": "passed"
 });
 formatter.scenario({
@@ -178,29 +178,29 @@ formatter.match({
   "location": "CarrinhoSteps.multiplosItensSaoAdicionadosAoCarrinho(String,String)"
 });
 formatter.result({
-  "duration": 625787900,
+  "duration": 333516200,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.oIconeDoCarrinhoDeveSerAlteradoComAQuantidadeDeItens()"
 });
 formatter.result({
-  "duration": 92693900,
+  "duration": 48089300,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.eFeitoLogout()"
 });
 formatter.result({
-  "duration": 279111500,
+  "duration": 699543400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 194845900,
+  "duration": 129197699,
   "status": "passed"
 });
 formatter.after({
-  "duration": 213695600,
+  "duration": 116732400,
   "status": "passed"
 });
 formatter.background({
@@ -224,7 +224,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_eu_acessei_a_aplicacao()"
 });
 formatter.result({
-  "duration": 2864997300,
+  "duration": 2665020100,
   "status": "passed"
 });
 formatter.match({
@@ -241,7 +241,7 @@ formatter.match({
   "location": "CarrinhoSteps.que_o_usuario_efetuou_login_incluindo_e(String,String)"
 });
 formatter.result({
-  "duration": 413258300,
+  "duration": 341867200,
   "status": "passed"
 });
 formatter.scenario({
@@ -299,29 +299,29 @@ formatter.match({
   "location": "CarrinhoSteps.multiplosItensSaoAdicionadosAoCarrinho(String,String)"
 });
 formatter.result({
-  "duration": 370256600,
+  "duration": 353263600,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.oIconeDoCarrinhoDeveSerAlteradoComAQuantidadeDeItens()"
 });
 formatter.result({
-  "duration": 61609800,
+  "duration": 46629300,
   "status": "passed"
 });
 formatter.match({
   "location": "CarrinhoSteps.eFeitoLogout()"
 });
 formatter.result({
-  "duration": 703869200,
+  "duration": 703080400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 126136600,
+  "duration": 129448500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 123658000,
+  "duration": 135185401,
   "status": "passed"
 });
 });

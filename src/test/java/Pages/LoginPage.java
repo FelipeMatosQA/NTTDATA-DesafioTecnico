@@ -17,6 +17,8 @@ public class LoginPage extends RunCucumberTest {
 
     private By errorMsg =  By.cssSelector("h3[data-test =\"error\"]");
 
+    private By appLogo = By.className("app_logo");
+
 
     public void accessApp() {
         getDriver(System.getProperty("browser"));
@@ -46,7 +48,7 @@ public class LoginPage extends RunCucumberTest {
     }
 
     public void validateLogin(){
-        Utils.waitToElementBeVisible(By.className("app_logo"),10);
+        Utils.waitToElementBeVisible(appLogo,10);
         validateCurrentUrl("https://www.saucedemo.com/inventory.html");
     }
 }

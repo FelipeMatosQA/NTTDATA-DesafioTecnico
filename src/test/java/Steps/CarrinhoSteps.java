@@ -6,11 +6,11 @@ import Pages.LoginPage;
 import Suport.ScreenShotUtils;
 import cucumber.api.PendingException;
 import cucumber.api.Scenario;
+import cucumber.api.java.After;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.E;
 import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;
-import org.junit.After;
 import org.junit.AfterClass;
 
 import java.io.IOException;
@@ -73,11 +73,6 @@ public class CarrinhoSteps {
         inventoryPage.validateNumberOfItensInTheCart("2");
     }
 
-    @AfterClass
-    public static void afterScenario(Scenario scenario) {
-        ScreenShotUtils.takeScreenshotOnScenario(scenario);
-    }
-
     @Dado("^que multiplos itens\"([^\"]*)\" \"([^\"]*)\" sao adicionados ao carrinho$")
     public void queMultiplosItensSaoAdicionadosAoCarrinho(String index1, String index2) {
         inventoryPage.selectItemByIndex(index1);
@@ -93,4 +88,10 @@ public class CarrinhoSteps {
     public void oBotaoRemoverEClicado() {
         inventoryPage.clickRemoveBtnFirstItem();
     }
+
+    @AfterClass
+    public static void afterScenario(Scenario scenario) {
+        ScreenShotUtils.takeScreenshotOnScenario(scenario);
+    }
+
 }
