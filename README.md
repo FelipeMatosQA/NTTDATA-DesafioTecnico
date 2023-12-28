@@ -1,7 +1,7 @@
 # About this project 
 
 On this portfolio automation project, I have tested the application "https://www.saucedemo.com/", this application
-is a demo E-commerce website for automation tests. I've used tools like Selenium WebDriver, Junit, Cucumber to write the Cenarios using Gherkin
+is a demo E-commerce website for automation tests. I've used tools like Selenium WebDriver,Java, Junit, Cucumber to write the Cenarios using Gherkin
 following the BDD methodology. I also have used the design pattern "Page Objects" to have better maintenance and reusability of the code.
 The plugin "Cluecumber-report" has been used to generate the execution artifact after each execution with all reference data of the last test execution.
 For the execution of the suit test, was configured a pipeline execution using GitHub Actions, with a [PR] as the trigger of the execution.
