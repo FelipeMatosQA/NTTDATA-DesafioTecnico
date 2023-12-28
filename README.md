@@ -23,7 +23,7 @@ To clone this project from Github, run these commands:
 ```
 # Clone this repository to a local directory.
 
-git clone https://github.com/FelipeMatosQA/Selenium-Cucumber-e2e.git
+git clone https://github.com/FelipeMatosQA/Selenium-Cucumber-JAVA-e2e.git
 cd Selenium-Cucumber-e2e
 
 # To run the tests use the command below.
@@ -51,7 +51,7 @@ Moreover, was created a hook, that will annex the screenshot of each step, as de
 
 # Pipeline 
 
-Was configured an execution pipeline using GitHub Actions, to access the WorkFlow of the executions, you have to navigate to the session "Actions" of this repository, or click this link "https://github.com/FelipeMatosQA/Selenium-Cucumber-e2e/actions".
+Was configured an execution pipeline using GitHub Actions, to access the WorkFlow of the executions, you have to navigate to the session "Actions" of this repository, or click this link "https://github.com/FelipeMatosQA/Selenium-Cucumber-JAVA-e2e/actions".
 
 After each pipeline execution, the artifact(report) will be annexed and linked to the workflow, you can see the example below. 
 
