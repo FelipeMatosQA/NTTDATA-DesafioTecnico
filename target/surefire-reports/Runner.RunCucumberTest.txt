@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: Runner.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.281 s <<< FAILURE! -- in Runner.RunCucumberTest
+Runner.RunCucumberTest.initializationError -- Time elapsed: 0.007 s <<< ERROR!
+io.cucumber.core.gherkin.FeatureParserException: 
+Failed to parse resource at: file:///C:/Users/lipel/WORKSPACE/NTTDATA-DesafioTecnico/src/test/resources/Features/Carrinho.feature
+(3:1): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Funcionalidade: Carrinho de compras'
+(5:3): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Como usuário,'
+(6:3): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Quero adicionar, remover e editar itens no carrinho de compras,'
+(7:3): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Para concluir minhas compras com facilidade.'
+(9:3): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Contexto:'
+(11:5): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Dado Que eu acessei a aplicacao'
+(12:5): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Dado Que o usuario efetuou login incluindo "standard_user" e "secret_sauce"'
+(16:3): expected: #TagLine, #FeatureLine, #Comment, #Empty, got '//@Item-1'
+(17:3): expected: #TagLine, #FeatureLine, #Comment, #Empty, got '//@Carrinho'
+(19:3): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Esquema do Cenario: : Validar nome e valor do item adicionado ao carrinho'
+(22:5): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Quando um item "<index>"e adicionado ao carrinho'
+	at io.cucumber.core.gherkin.messages.GherkinMessagesFeatureParser.parse(GherkinMessagesFeatureParser.java:56)
+	at io.cucumber.core.feature.FeatureParser.parseResource(FeatureParser.java:46)
+	at java.util.function.BiFunction.lambda$andThen$0(BiFunction.java:70)
+	at io.cucumber.core.resource.ResourceScanner.lambda$processResource$1(ResourceScanner.java:79)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:75)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:60)
+	at java.nio.file.Files.walkFileTree(Files.java:2670)
+	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:53)
+	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
+	at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
+	at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:134)
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)
+	at io.cucumber.junit.Cucumber.<init>(Cucumber.java:156)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:314)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+

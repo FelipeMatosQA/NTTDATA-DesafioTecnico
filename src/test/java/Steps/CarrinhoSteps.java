@@ -4,16 +4,13 @@ import Pages.CartPage;
 import Pages.InventoryPage;
 import Pages.LoginPage;
 import Suport.ScreenShotUtils;
-import cucumber.api.PendingException;
-import cucumber.api.Scenario;
-import cucumber.api.java.After;
-import cucumber.api.java.pt.Dado;
-import cucumber.api.java.pt.E;
-import cucumber.api.java.pt.Entao;
-import cucumber.api.java.pt.Quando;
-import org.junit.AfterClass;
+import io.cucumber.java.AfterStep;
+import io.cucumber.java.Scenario;
+import io.cucumber.java.it.E;
+import io.cucumber.java.it.Quando;
+import io.cucumber.java.pt.Dado;
+import io.cucumber.java.pt.Entao;
 
-import java.io.IOException;
 
 public class CarrinhoSteps {
 
@@ -89,7 +86,7 @@ public class CarrinhoSteps {
         inventoryPage.clickRemoveBtnFirstItem();
     }
 
-    @AfterClass
+    @AfterStep
     public static void afterScenario(Scenario scenario) {
         ScreenShotUtils.takeScreenshotOnScenario(scenario);
     }

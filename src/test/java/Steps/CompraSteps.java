@@ -2,12 +2,11 @@ package Steps;
 
 import Pages.*;
 import Suport.ScreenShotUtils;
-import cucumber.api.Scenario;
-import cucumber.api.java.After;
-import cucumber.api.java.ca.I;
-import cucumber.api.java.pt.E;
-import cucumber.api.java.pt.Entao;
-import cucumber.api.java.pt.Quando;
+import io.cucumber.java.AfterStep;
+import io.cucumber.java.Scenario;
+import io.cucumber.java.pt.E;
+import io.cucumber.java.pt.Entao;
+import io.cucumber.java.pt.Quando;
 
 public class CompraSteps {
     InventoryPage inventoryPage = new InventoryPage();
@@ -49,7 +48,7 @@ public class CompraSteps {
         checkoutCompletePage.validatePurchase();
     }
 
-    @After
+    @AfterStep
     public static void afterScenario(Scenario scenario) {
         ScreenShotUtils.takeScreenshotOnScenario(scenario);
     }
