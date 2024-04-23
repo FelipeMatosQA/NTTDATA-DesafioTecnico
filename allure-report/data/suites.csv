@@ -1,0 +1,67 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Dec 21 13:29:48 BRST 2023","Thu Dec 21 13:29:56 BRST 2023","8368","","Fluxo de compra com multiplos usuários","",": Efetuar compra com multiplos usuarios com fluxo nao impeditivo e validar valor total","",": Efetuar compra com multiplos usuarios com fluxo nao impeditivo e validar valor total","  Como usuário,
+  Quero concluir minhas compras online com facilidade,
+  Para ter uma experiência de compra positiva."
+"passed","Thu Dec 21 13:28:57 BRST 2023","Thu Dec 21 13:29:05 BRST 2023","8139","","Fluxo de compra com multiplos usuários","",": Efetuar compra com multiplos usuarios com fluxo nao impeditivo e validar valor total","",": Efetuar compra com multiplos usuarios com fluxo nao impeditivo e validar valor total","  Como usuário,
+  Quero concluir minhas compras online com facilidade,
+  Para ter uma experiência de compra positiva."
+"passed","Thu Dec 21 13:30:23 BRST 2023","Thu Dec 21 13:30:31 BRST 2023","7995","","Fluxo de compra com multiplos usuários","","Fluxo de compra com usuario com erro","","Fluxo de compra com usuario com erro","  Como usuário,
+  Quero concluir minhas compras online com facilidade,
+  Para ter uma experiência de compra positiva."
+"passed","Thu Dec 21 13:27:48 BRST 2023","Thu Dec 21 13:27:55 BRST 2023","7258","","Carrinho de compras","","Validar valores de multiplos itens no carrinho","","Validar valores de multiplos itens no carrinho","  Como usuário,
+  Quero adicionar, remover e editar itens no carrinho de compras,
+  Para concluir minhas compras com facilidade."
+"passed","Thu Dec 21 13:29:13 BRST 2023","Thu Dec 21 13:29:26 BRST 2023","13272","","Fluxo de compra com multiplos usuários","",": Efetuar compra com multiplos usuarios com fluxo nao impeditivo e validar valor total","",": Efetuar compra com multiplos usuarios com fluxo nao impeditivo e validar valor total","  Como usuário,
+  Quero concluir minhas compras online com facilidade,
+  Para ter uma experiência de compra positiva."
+"passed","Thu Dec 21 13:27:33 BRST 2023","Thu Dec 21 13:27:41 BRST 2023","7594","","Carrinho de compras","",": Validar nome e valor do item adicionado ao carrinho","",": Validar nome e valor do item adicionado ao carrinho","  Como usuário,
+  Quero adicionar, remover e editar itens no carrinho de compras,
+  Para concluir minhas compras com facilidade."
+"passed","Thu Dec 21 13:30:01 BRST 2023","Thu Dec 21 13:30:08 BRST 2023","7133","","Fluxo de compra com multiplos usuários","","Fluxo de compra com usuario com problema","","Fluxo de compra com usuario com problema","  Como usuário,
+  Quero concluir minhas compras online com facilidade,
+  Para ter uma experiência de compra positiva."
+"passed","Thu Dec 21 13:28:03 BRST 2023","Thu Dec 21 13:28:11 BRST 2023","8182","","Carrinho de compras","","Validar remocao de itens no carrinho pelo icone","","Validar remocao de itens no carrinho pelo icone","  Como usuário,
+  Quero adicionar, remover e editar itens no carrinho de compras,
+  Para concluir minhas compras com facilidade."
+"passed","Thu Dec 21 13:29:05 BRST 2023","Thu Dec 21 13:29:13 BRST 2023","8181","","Fluxo de compra com multiplos usuários","",": Efetuar compra com multiplos usuarios com fluxo nao impeditivo e validar valor total","",": Efetuar compra com multiplos usuarios com fluxo nao impeditivo e validar valor total","  Como usuário,
+  Quero concluir minhas compras online com facilidade,
+  Para ter uma experiência de compra positiva."
+"passed","Thu Dec 21 13:28:19 BRST 2023","Thu Dec 21 13:28:25 BRST 2023","6741","","Carrinho de compras","","Validar contagem de itens no carrinho pelo icone","","Validar contagem de itens no carrinho pelo icone","  Como usuário,
+  Quero adicionar, remover e editar itens no carrinho de compras,
+  Para concluir minhas compras com facilidade."
+"passed","Thu Dec 21 13:28:32 BRST 2023","Thu Dec 21 13:28:40 BRST 2023","8300","","Efetuar compra","",": Efetuar compra e validar valor total","",": Efetuar compra e validar valor total","  Como usuário,
+  Quero concluir minhas compras online com facilidade,
+  Para ter uma experiência de compra positiva."
+"passed","Thu Dec 21 13:28:11 BRST 2023","Thu Dec 21 13:28:19 BRST 2023","7829","","Carrinho de compras","","Validar remocao de itens no carrinho pelo icone","","Validar remocao de itens no carrinho pelo icone","  Como usuário,
+  Quero adicionar, remover e editar itens no carrinho de compras,
+  Para concluir minhas compras com facilidade."
+"passed","Thu Dec 21 13:27:55 BRST 2023","Thu Dec 21 13:28:03 BRST 2023","7359","","Carrinho de compras","","Validar valores de multiplos itens no carrinho","","Validar valores de multiplos itens no carrinho","  Como usuário,
+  Quero adicionar, remover e editar itens no carrinho de compras,
+  Para concluir minhas compras com facilidade."
+"passed","Thu Dec 21 13:29:26 BRST 2023","Thu Dec 21 13:29:40 BRST 2023","13265","","Fluxo de compra com multiplos usuários","",": Efetuar compra com multiplos usuarios com fluxo nao impeditivo e validar valor total","",": Efetuar compra com multiplos usuarios com fluxo nao impeditivo e validar valor total","  Como usuário,
+  Quero concluir minhas compras online com facilidade,
+  Para ter uma experiência de compra positiva."
+"passed","Thu Dec 21 13:30:08 BRST 2023","Thu Dec 21 13:30:15 BRST 2023","7019","","Fluxo de compra com multiplos usuários","","Fluxo de compra com usuario com problema","","Fluxo de compra com usuario com problema","  Como usuário,
+  Quero concluir minhas compras online com facilidade,
+  Para ter uma experiência de compra positiva."
+"passed","Thu Dec 21 13:27:41 BRST 2023","Thu Dec 21 13:27:48 BRST 2023","7259","","Carrinho de compras","",": Validar nome e valor do item adicionado ao carrinho","",": Validar nome e valor do item adicionado ao carrinho","  Como usuário,
+  Quero adicionar, remover e editar itens no carrinho de compras,
+  Para concluir minhas compras com facilidade."
+"passed","Thu Dec 21 13:28:48 BRST 2023","Thu Dec 21 13:28:57 BRST 2023","8278","","Efetuar compra","",": Efetuar compra e validar valor total","",": Efetuar compra e validar valor total","  Como usuário,
+  Quero concluir minhas compras online com facilidade,
+  Para ter uma experiência de compra positiva."
+"passed","Thu Dec 21 13:28:40 BRST 2023","Thu Dec 21 13:28:48 BRST 2023","8240","","Efetuar compra","",": Efetuar compra e validar valor total","",": Efetuar compra e validar valor total","  Como usuário,
+  Quero concluir minhas compras online com facilidade,
+  Para ter uma experiência de compra positiva."
+"passed","Thu Dec 21 13:28:25 BRST 2023","Thu Dec 21 13:28:32 BRST 2023","6515","","Carrinho de compras","","Validar contagem de itens no carrinho pelo icone","","Validar contagem de itens no carrinho pelo icone","  Como usuário,
+  Quero adicionar, remover e editar itens no carrinho de compras,
+  Para concluir minhas compras com facilidade."
+"passed","Thu Dec 21 13:29:56 BRST 2023","Thu Dec 21 13:30:01 BRST 2023","4605","","Fluxo de compra com multiplos usuários","","Efetuar login com usuario locked-out-user","","Efetuar login com usuario locked-out-user","  Como usuário,
+  Quero concluir minhas compras online com facilidade,
+  Para ter uma experiência de compra positiva."
+"passed","Thu Dec 21 13:29:40 BRST 2023","Thu Dec 21 13:29:48 BRST 2023","8347","","Fluxo de compra com multiplos usuários","",": Efetuar compra com multiplos usuarios com fluxo nao impeditivo e validar valor total","",": Efetuar compra com multiplos usuarios com fluxo nao impeditivo e validar valor total","  Como usuário,
+  Quero concluir minhas compras online com facilidade,
+  Para ter uma experiência de compra positiva."
+"passed","Thu Dec 21 13:30:15 BRST 2023","Thu Dec 21 13:30:23 BRST 2023","8161","","Fluxo de compra com multiplos usuários","","Fluxo de compra com usuario com erro","","Fluxo de compra com usuario com erro","  Como usuário,
+  Quero concluir minhas compras online com facilidade,
+  Para ter uma experiência de compra positiva."

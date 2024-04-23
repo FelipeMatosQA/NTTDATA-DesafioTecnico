@@ -1,8 +1,12 @@
 package Suport;
 
-import cucumber.api.Scenario;
+
+import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import static Runner.RunBase.getDriver;
 
@@ -18,7 +22,16 @@ public class ScreenShotUtils {
         System.out.println("Tag: " + scenario.getSourceTagNames());
 
         byte[] screenshot = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES);
-        scenario.embed(screenshot,   "image/jpg");
+
+        Date now = new Date();
+        //define o formato de data
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
+        //hora de execução
+        String timestamp = dateFormat.format(now);
+        //nome do arquivo
+        String filename = scenario.getName() + "_" + timestamp + ".jpg";
+        //Anexa screenshot
+        scenario.attach(screenshot, "image/jpg", filename);
 
 
     }
